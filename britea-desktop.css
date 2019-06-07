@@ -6,6 +6,8 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+body {
+}
 ::selection {
   background-color: #DDAB4C;
   color: white;
