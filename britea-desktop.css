@@ -7,6 +7,7 @@ html {
   box-sizing: border-box;
 }
 body {
+  height: 150vh;
 }
 ::selection {
   background-color: #DDAB4C;
@@ -25,11 +26,13 @@ body {
 }
   .header-container-desktop {
     display: flex;
+    position: fixed;
     align-items: flex-end;
     justify-content: space-between;
     width: 70vw;
     height: 25vh;
     /*border: red 1px solid;*/
+    border-bottom: 0.125vh solid #DDAB4C;
 
   }
     #logo {
@@ -38,6 +41,7 @@ body {
     }
     .navbar {
       display: flex;
+
     }
       .navbar a {
         font-family: 'Oxygen', serif;
