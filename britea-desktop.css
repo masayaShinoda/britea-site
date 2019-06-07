@@ -44,7 +44,7 @@
         padding: 2.5vw;
         padding-top: 1.25vh;
         padding-bottom: 1.25vh;
-        margin-bottom: 2.5vh;
+        margin-bottom: 5vh;
         animation-name: nav-link;
         animation-duration: 2s;
         animation-fill-mode: forwards;
@@ -57,3 +57,6 @@
           background-color: #DDAB4C;
           color: white;
         }
+  .home-container-mobile {
+    display: none;
+  }
