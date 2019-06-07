@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +51,7 @@
         animation-name: nav-link;
         animation-duration: 2s;
         animation-fill-mode: forwards;
+        transition: .3s;
       }
         @keyframes nav-link {
           0% {padding-right: 0; padding-left: 0; font-size: 0.75rem}
@@ -56,6 +60,7 @@
         .navbar a:hover {
           background-color: #DDAB4C;
           color: white;
+          transition: .3s;
         }
   .home-container-mobile {
     display: none;
