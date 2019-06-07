@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+::selection {
+  background-color: #DDAB4C;
+  color: white;
+}
+.parent-container {
+
+}
+  .header-container-desktop {
+    display: none;  /* doesn't display on mobile */
+  }
