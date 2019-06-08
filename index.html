@@ -2,11 +2,11 @@
 <html lang="en-US">
   <head>
     <title>Britea Cambodia</title>
-    <link rel="stylesheet" media="screen and (max-width: 959px)" href="britea-desktop.css">
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="britea-desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="britea-desktop.css">
     <link rel="stylesheet" media="screen and (max-width: 480px)" href="britea-mobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 960px)" href="britea-desktop.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="logo-transparent.png">
+    <link rel="icon" href="logo.png">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
@@ -18,16 +18,33 @@
           <img src="logo-transparent.png" id="logo">
         </div>
         <div class="navbar">
-          <a href="#">Home</a>
-          <a href="#">Menu</a>
-          <a href="#">Contact</a>
+          <a href="#" class="option">Home</a>
+          <div class="dropdown">
+            <a href="#" class="option">Menu</a>​​ <!--- equivalent to dropbtn --->
+              <div class="dropdown-content">
+                <ul>
+                  <li><a class="category">Milk Tea</a></li>
+                  <li><a class="category">Fruit Tea</a></li>
+                  <li><a class="category">Foam Tea</a></li>
+                  <li><a class="category">Flavored Tea</a></li>
+                  <li><a class="category">Milkaholic</a></li>
+                </ul>
+              </div>
+          </div>
+          <a href="#" class="option">Contact</a>
         </div>
-      </div>
-      <div class="home-container-mobile">
-        <img src="logo-transparent.png"​​​ id="mobile-homepage-pic">
-      </div>
-      <div class="mid-container-desktop">
-      </div>
+        </div>
+        <div class="home-container-mobile">
+          <div class="logo-transparent.png">
+            <img src="logo-transparent.png" id="logo-mobile-homepage">
+          </div>
+
+        </div>
+
+        <div class="mid-container-desktop">
+            <div class="slider">
+            </div>
+        </div>
     </div>
   </body>
 </html>
