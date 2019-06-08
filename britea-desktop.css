@@ -33,7 +33,7 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     width: 100vw;
-    height: 25vh;
+    height: 20vh;
     /*border: red 1px solid;*/
     border-bottom: 0.125vh solid #DDAB4C;
     z-index: 1;
@@ -46,7 +46,7 @@ body {
     }
     .navbar {
       display: flex;
-
+      margin-bottom: -1.25vh;
     }
       .option {
         font-family: 'Oxygen', serif;
@@ -153,8 +153,8 @@ body {
         font-family: 'Open Sans', sans-serif;
         line-height: 1.6;
         text-align: left;
-        background-color: rgba(255,255,255,.9);
-        border: #DDAB4C solid 0.125vh;
+        border-bottom: #DDAB4C solid 0.125vh;
+
       }
   .home-container-mobile {
       display: none;
