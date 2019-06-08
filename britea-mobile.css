@@ -36,3 +36,6 @@ html {
       min-width: 100px;
       max-width: 80vw;
     }
+  .footer-container-desktop {
+    display: none;
+  }

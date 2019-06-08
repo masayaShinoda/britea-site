@@ -7,7 +7,6 @@ html {
   box-sizing: border-box;
 }
 body {
-  height: 150vh;
   background-image: url('tea 2.jpg');
   background-size: cover;
   background-position: bottom;
@@ -108,7 +107,8 @@ body {
               transition: .5s;
               animation-name: category;
               animation-duration: .5s;
-              
+
+
             }
               @keyframes category {
                 0% {margin-top: -15%;}
@@ -122,6 +122,36 @@ body {
             ul {
               list-style-type: none;
             }
+    .footer-container-desktop {
+      display: flex;
+      width: 100vw;
+      position: absolute;
+      bottom: 0;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 70vw;
+      border-top: 0.125vh solid #DDAB4C;
+      /*background: rgba(255,255,255,.9); */
+    }
+      .left-box { /* contains map */
+        margin: 1.25vw;
+
+      }
+      .mid-box {
+        padding: 1.5vh 1.5vw;
+        margin: 1.25vw;
+        display: flex;
+        min-height: 15vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 15vw;
+        color: #DDAB4C;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.6;
+        text-align: left;
+        background-color: rgba(255,255,255,.9);
+        border: #DDAB4C solid 0.125vh;
+      }
   .home-container-mobile {
     display: none;
   }
