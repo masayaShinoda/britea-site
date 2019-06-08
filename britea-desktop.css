@@ -8,6 +8,10 @@ html {
 }
 body {
   height: 150vh;
+  background-image: url('tea 2.jpg');
+  background-size: cover;
+  background-position: bottom;
+
 }
 ::selection {
   background-color: #DDAB4C;
@@ -47,6 +51,9 @@ body {
         font-family: 'Oxygen', serif;
         color: #DDAB4C;
         font-size: 1.25rem;
+        border: 0.125vh #DDAB4C solid;
+        background: rgba(255,255,255,0.9);
+
         letter-spacing: 0.125vw;
         text-transform: uppercase;
         text-decoration: none;
@@ -60,7 +67,7 @@ body {
         transition: .3s;
       }
         @keyframes nav-link {
-          0% {padding-right: 0; padding-left: 0; font-size: 0.75rem}
+          0% {padding-right: 0; padding-left: 0; font-size: 0.75rem;}
 
         }
         .navbar a:hover {
