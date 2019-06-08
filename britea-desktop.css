@@ -42,6 +42,7 @@ body {
     #logo {
       min-width: 100px;
       max-width: 7.5vw;
+
     }
     .navbar {
       display: flex;
@@ -107,6 +108,7 @@ body {
               transition: .5s;
               animation-name: category;
               animation-duration: .5s;
+              
             }
               @keyframes category {
                 0% {margin-top: -15%;}
