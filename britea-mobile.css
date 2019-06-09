@@ -50,6 +50,7 @@ html {
   }
     .vuth-code:visited #icon {
       display: none;
+
     }
     .vuth-code:hover #icon {
       display: none;
@@ -64,29 +65,19 @@ html {
     height: 0.65vh;
     background-color: #DDAB4C;
     margin: 0.75vh 0;
-
   }
-    .change .bar1 {
-      opacity: 0;
-
-    }
-    .change .bar2 {
-      opacity: 0;
-    }
-    .change .bar3 {
-      opacity: 0;
-    }
     .mid-nav {
       margin: 2.5vh 0px;
       width: 100vw;
       display: none;
       animation-name: appear-nav;
-      animation-duration: 0.5s;
+      animation-duration: 0.75s;
       animation-fill-mode: forwards;
 
     }
       @keyframes appear-nav {
-        0% {padding-right: 50%;}
+        0% {padding-right: 100vw;}
+
       }
     .mid-nav ul {
       list-style-type: none;
@@ -107,10 +98,11 @@ html {
     }
     .mid-nav ul li a:hover {
       background-color: #DDAB4C;
-      color:white;
+      color: white;
     }
     .mid-nav a {
       padding: 1.5vh;
+      padding-top: 2.5vh;
       font-family: 'Oxygen', sans-serif;
       font-size: 2rem;
     }
