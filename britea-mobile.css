@@ -32,7 +32,7 @@ html {
     #logo-mobile-homepage {
       min-width: 100px;
       max-width: 80vw;
-      margin-top: -7.5vh;
+      margin-top: -5vh;
 
     }
   .footer-container-desktop {
@@ -49,6 +49,9 @@ html {
 
   }
     .vuth-code:visited #icon {
+      display: none;
+    }
+    .vuth-code:hover #icon {
       display: none;
     }
     .vuth-code:hover .mid-nav, .mid-nav a {
