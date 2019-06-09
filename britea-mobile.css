@@ -54,16 +54,16 @@ html {
     .vuth-code:hover #icon {
       display: none;
     }
-    .vuth-code:hover .mid-nav, .mid-nav a {
+    .vuth-code:hover .mid-nav{
       display: block;
       margin: 2.5%;
+      margin-top: 7.5vh;
     }
   .bar1, .bar2, .bar3 {
     width: 13.5vw;
     height: 0.65vh;
     background-color: #DDAB4C;
     margin: 0.75vh 0;
-    transition:0.4s;
 
   }
     .change .bar1 {
