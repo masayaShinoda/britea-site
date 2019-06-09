@@ -35,7 +35,7 @@ html {
       margin-top: -5vh;
 
     }
-  .footer-container-desktop {
+  .footer-container-desktop { /* doesn't show up on mobile */
     display: none;
   }
 
@@ -106,3 +106,5 @@ html {
       font-family: 'Oxygen', sans-serif;
       font-size: 2rem;
     }
+
+/* contacts */

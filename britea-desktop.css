@@ -143,21 +143,42 @@ body {
       }
       .mid-box {
         display: flex;
-
+        flex-direction: column;
         padding: 1.5vh 1.5vw;
         margin: 1.25vw;
         margin-left: 0;
         letter-spacing: 0.05vw;
-        flex-direction: column;
-        justify-content: flex-start;
         max-width: 50vw;
         color: #DDAB4C;
         font-family: 'Open Sans', sans-serif;
         line-height: 1.6;
         text-align: left;
-        border-bottom: #DDAB4C solid 0.125vh;
+
 
       }
+        .address {
+          border-bottom: #DDAB4C solid 0.125vh;
+          padding: 1.25vh 0;
+        }
   .home-container-mobile {
       display: none;
+    }
+/* contact */
+  .contact-box {
+    display: flex;
+    align-items: center;
+
+    padding: 1.25vh 0;
+    margin-left: -0.75vw;
+  }
+    #social-icon {
+      max-width: 4.5vw;
+      padding: 0.75vw;
+    }
+    .social-content {
+      display: flex;
+      text-decoration: none;
+      color: #DDAB4C;
+      align-items: center;
+      justify-content: space-between;
     }
