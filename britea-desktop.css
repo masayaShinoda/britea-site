@@ -10,6 +10,7 @@ body {
   background-image: url('tea 2.jpg');
   background-size: cover;
   background-repeat: none;
+
 }
 ::selection {
   background-color: #DDAB4C;
@@ -42,7 +43,7 @@ body {
     #logo {
       min-width: 100px;
       max-width: 7.5vw;
-
+      margin-bottom: 2.5vh;
     }
     .navbar {
       display: flex;
