@@ -7,9 +7,10 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-image: url('tea 2.jpg');
-  background-size: cover;
-  background-repeat: none;
+  background-image: url('tea 3.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+
 
 }
 ::selection {
