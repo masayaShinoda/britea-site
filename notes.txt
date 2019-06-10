@@ -1,4 +1,4 @@
-Britea yellow: #DDAB4C
+Britea yellow: #DDAB4C	221,171,76
 Location: 	#27 st. 307L303,
 	        Sangkat Beoung Kak 2, 
 		Khan Toul Kork, Phnom Penh.

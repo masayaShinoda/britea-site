@@ -6,6 +6,9 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  
+}
 ::selection {
   background-color: #DDAB4C;
   color: white;
@@ -16,6 +19,7 @@ html {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+
 }
   .header-container-desktop {
     display: none;  /* doesn't display on mobile */
@@ -28,6 +32,7 @@ html {
     width: 90vw;
     border-radius: 5vmax;
     max-height: 40vh;
+
   }
     #logo-mobile-homepage {
       min-width: 100px;
@@ -106,5 +111,8 @@ html {
       font-family: 'Oxygen', sans-serif;
       font-size: 2rem;
     }
+  .mid-container-desktop {  /* doesn't show up on mobile */
+    display: none;
+  }
 
 /* contacts */
