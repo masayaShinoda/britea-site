@@ -89,12 +89,12 @@ body {
         margin-top: 30px;
 
       }
-      .overlay a {  /* nav-linkx for mobile */
+      .overlay a {  /* nav-links for mobile */
         padding: 2.75vh;
         color: white;
         font-size: 2rem;
         text-decoration: none;
-        font-family: Comfortaa, Helvetica;
+        font-family: 'Oxygen', sans-serif;
         display: block;
       }
         .overlay a:hover {
