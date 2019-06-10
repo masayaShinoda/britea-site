@@ -44,7 +44,7 @@ body {
 
   }
     .logo-container-mobile {
-      display: flex;
+      display: inline-block;
       margin: 5vmax 5vmin; /* important */
       width: 25vw;
       height: 25vw;
