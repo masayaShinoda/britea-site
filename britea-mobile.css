@@ -117,7 +117,7 @@ body {
       .openBtn {
         padding: 2.5vmax 2.5vmin;
         color: #DDAB4C;
-
+        margin-top: 2.5vmax;
       }
         .burger-top, .burger-mid, .burger-bottom {
           width: 35px;
