@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  
+
 }
 ::selection {
   background-color: #DDAB4C;
@@ -37,7 +37,7 @@ body {
     #logo-mobile-homepage {
       min-width: 100px;
       max-width: 80vw;
-      margin-top: -5vh;
+      margin-top: -15vh;
 
     }
   .footer-container-desktop { /* doesn't show up on mobile */
