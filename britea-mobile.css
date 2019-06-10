@@ -47,6 +47,7 @@ body {
       display: flex;
       margin: 5vmax 5vmin; /* important */
       width: 25vw;
+      height: 25vw;
       border: green 1px solid; /* debug */
     }
       #logo-small-mobile {
