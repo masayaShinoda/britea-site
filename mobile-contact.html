@@ -13,12 +13,51 @@
     <script src="britea-mobile.js"></script>
   </head>
   <body>
-    <div class="parent-container">
-      <div class="logo-container-mobile">
+    <<div class="parent-container-home">
+      <div class="upper-container-mobile">
+
+        <!--- copied from G-LVN --->
+          <div id="nav" class="overlay">
+            <a href="#" class="closeBtn" onclick="closeNav()">X</a>
+            <div class="overlay__content">
+              <a href="mobile-home.html">Home</a>
+              <a href="mobile-menu.html">Menu</a>
+              <a href="mobile-contact.html">Contact</a>
+            </div>
+          </div>
+          <div class="underlay">
+            <a href="#" class="openBtn" onclick="openNav()">
+              <div class="burger-top"></div>
+              <div class="burger-mid"></div>
+              <div class="burger-bottom"></div>
+            </a>
+          </div>
+        <!--- g-lvn ends here --->
+
+
+
+        <div class="logo-container-mobile">
+          <img src="logo-transparent.png" id="logo-small-mobile">
+
+        </div>
+
+
+    </div>  <!--- upper container mobile ends here --->
+    <div class="contact-container-mobile">
+      <h1 class="heading-text">Where to find us:</h1>
+      <div class="map-box"> <!--- contains map --->
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=tokyo&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:250px;width:250px;}.gmap_canvas {overflow:hidden;background:none!important;height:175px;width:175px;}</style></div>
 
       </div>
-    </div>
+      <p class="content-text">
+        #27, St. 307L303,
+        Sangkat Beoung Kak 2,
+        Khan Toul Kork, Phnom Penh.
+      </p>
 
+
+    </div>
 
   </body>
 </html>

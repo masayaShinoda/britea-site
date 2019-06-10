@@ -7,7 +7,6 @@ html {
   box-sizing: border-box;
 }
 body {
-
 }
 ::selection {
   background-color: #DDAB4C;
@@ -136,6 +135,28 @@ body {
   }
     .mobile-home-pic {
       max-width: 100vw;
+    }
+  .contact-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: red 1px solid; /* debug */
+  }
+    .heading-text {
+      font-family: 'Source Serif Pro', serif;
+      color: #DDAB4C;
+      padding: 2.5vmin;
+    }
+    .map-box { /* contains map */
+      margin: 1.25vmax;
+      border: 0.125vh #DDAB4C solid;
+    }
+    .content-text {
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      margin: 1.25vmin;
+      color: #DDAB4C;
     }
   .footer-container-desktop { /* doesn't show up on mobile */
     display: none;
