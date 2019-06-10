@@ -98,7 +98,7 @@ body {
         display: block;
       }
         .overlay a:hover {
-          color: #231F20;
+          color: #DDAB4C;
           background-color: white;
         }
       .overlay .closeBtn {
@@ -107,9 +107,6 @@ body {
         right: 10vw;
         font-size: 2rem;
       }
-        .closeBtn {
-          border-radius: 100%;
-        }
     .underlay {
       display: flex;
       height: 17.5vh;
@@ -118,8 +115,8 @@ body {
       justify-content: space-around;
     }
       .openBtn {
-        padding: 12.5%;
-        color: #231F20;
+        padding: 15%;
+        color: #DDAB4C;
 
         border-radius: 1.75vmax;
         animation-duration: 2s;
@@ -128,7 +125,7 @@ body {
         .burger-top, .burger-mid, .burger-bottom {
           width: 35px;
           height: 2.5px;
-          background: rgb(35,31,32);
+          background: #DDAB4C;
           margin-top: .75vmax;
         }
         .openBtn:hover {
