@@ -130,7 +130,7 @@ body {
               height: 65vh;
               /*border: 1px solid green; /* debug */
 
-              background-image: url('coming-soon.jpg');
+              background-image: url('coming-soon.png');
               background-size: cover;
               background-repeat: no-repeat;
             }
