@@ -24,17 +24,17 @@ body {
 .parent-container-home {
   display: flex;
   margin: 5vmin;
-  height: 90vh;
+  margin-bottom: 0; /* to fix bleeding at bottom */
   flex-direction: column;
 
 
-  border: 1px red solid; /* debug */
+  /*border: 1px red solid; /* debug */
 }
   .upper-container-mobile {
     display: flex;
     justify-content: space-around;
 
-    border: blue 1px solid;
+    /*border: blue 1px solid; /* debug */
   }
   .header-container-desktop {
     display: none;  /* doesn't display on mobile */
@@ -54,7 +54,7 @@ body {
         margin: 5vmax 5vmin; /* important */
         width: 25vw;
         height: 25vw;
-        border: green 1px solid; /* debug */
+        /*border: green 1px solid; /* debug */
       }
         #logo-small-mobile {
           display: inline-block;
@@ -74,8 +74,8 @@ body {
       position: fixed;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 0%;
+      width: 0%;
+      height: 100%;
       background: rgba(221,171,76,0.9);
       overflow-x: hidden;
       z-index: 5;
@@ -115,24 +115,34 @@ body {
       justify-content: space-around;
     }
       .openBtn {
-        padding: 2.5vmax 2.5vmin;
+        padding: 2.75vmax 2.75vmin;
         color: #DDAB4C;
         margin-top: 2.5vmax;
       }
         .burger-top, .burger-mid, .burger-bottom {
-          width: 35px;
-          height: 2.5px;
+          width: 40px;
+          height: 2.85px;
           background: #DDAB4C;
           margin-top: .75vmax;
         }
 
+  .mid-container-home {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /*border: orange 1px solid; /* debug */
 
+  }
+    .mobile-home-pic {
+      max-width: 100vw;
+    }
   .footer-container-desktop { /* doesn't show up on mobile */
     display: none;
   }
 
   /* Vuth CSS */
-  .vuth-code {
+  /*.vuth-code {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,6 +208,7 @@ body {
       font-family: 'Oxygen', sans-serif;
       font-size: 2rem;
     }
+    */
   .mid-container-desktop {  /* doesn't show up on mobile */
     display: none;
   }
