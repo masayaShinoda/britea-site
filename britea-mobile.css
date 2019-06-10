@@ -15,11 +15,20 @@ body {
 }
 .parent-container {
   display: flex;
-  height: 80vh;
+  height: 90vh;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border: blue 1px solid; /* debug */
+}
+.parent-container-home {
+  display: flex;
+  margin: 5vmin;
+  height: 90vh;
+  flex-direction: column;
 
+
+  border: 1px red solid; /* debug */
 }
   .header-container-desktop {
     display: none;  /* doesn't display on mobile */
@@ -34,6 +43,17 @@ body {
     max-height: 40vh;
 
   }
+    .logo-container-mobile {
+      display: flex;
+      margin: 5vmax 5vmin; /* important */
+      width: 25vw;
+      border: green 1px solid; /* debug */
+    }
+      #logo-small-mobile {
+        display: inline-block;
+        min-width: 64px;
+        max-width: 25vw;
+      }
     #logo-mobile-homepage {
       min-width: 100px;
       max-width: 80vw;
