@@ -13,9 +13,46 @@
   </head>
   <body>
     <div class="parent-container-home">
-      <div class="logo-container-mobile">
-        <img src="logo-transparent.png" id="logo-small-mobile">
+      <div class="upper-container-mobile">
+
+        <!--- copied from G-LVN --->
+          <div id="nav" class="overlay">
+            <a href="#" class="closeBtn" onclick="closeNav()">X</a>
+            <div class="overlay__content">
+              <a href="g-lvn-v3.html">Home</a>
+              <a href="g-lvn-v3-mobile-shop.html">Shop</a>
+              <a href="g-lvn-v3-mobile-contact.html">Contact</a>
+            </div>
+          </div>
+          <div class="underlay">
+            <a href="#" class="openBtn" onclick="openNav()">
+              <div class="burger-top"></div>
+              <div class="burger-mid"></div>
+              <div class="burger-bottom"></div>
+            </a>
+          </div>
+        <!--- g-lvn ends here --->
+
+
+
+        <div class="logo-container-mobile">
+          <img src="logo-transparent.png" id="logo-small-mobile">
+
+        </div>
+
+
+
       </div>
     </div>
+
+
+  <script>
+    function openNav() {
+      document.getElementById('nav').style.height = "100%";
+    }
+    function closeNav() {
+      document.getElementById('nav').style.height = "0%";
+    }
+  </script>
   </body>
 </html>
