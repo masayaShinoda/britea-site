@@ -155,8 +155,9 @@ body {
     .content-text {
       text-align: center;
       font-family: 'Open Sans', sans-serif;
-      margin: 1.25vmin;
+      margin: 1.25vmax;
       color: #DDAB4C;
+      line-height: 1.6;
     }
   .footer-container-desktop { /* doesn't show up on mobile */
     display: none;
