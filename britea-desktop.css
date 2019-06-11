@@ -7,7 +7,9 @@ html {
   box-sizing: border-box;
 }
 body {
-
+  background-image: url('coming-soon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 ::selection {
   background-color: #DDAB4C;
@@ -130,9 +132,7 @@ body {
               height: 65vh;
               /*border: 1px solid green; /* debug */
 
-              background-image: url('coming-soon.png');
-              background-size: cover;
-              background-repeat: no-repeat;
+
             }
               .image-banner {
                 max-width: 80vw;
@@ -169,14 +169,14 @@ body {
     .footer-container-desktop {
       display: flex;
       position: absolute;
-      bottom: -20%; /* debug */
+      bottom: -30%; /* debug */
       max-width: 100vw;
       width: 100vw;
       align-items: flex-start;
       justify-content: center;
       border: 0.125vh solid #DDAB4C;
       border-bottom: none;
-      background: rgba(255,255,255,.9);
+      background: rgba(255,255,255,1);
       padding: 2.5vmin;
     }
       .left-box { /* contains map */
