@@ -54,7 +54,7 @@ body {
         font-size: 1.25rem;
         border: 0.125vh #DDAB4C solid;
         background: rgba(255,255,255,0.9);
-
+        font-size: 1.25vmax;
         letter-spacing: 0.125vw;
         text-decoration: none;
         padding: 2.5vw;
@@ -103,7 +103,7 @@ body {
               cursor: pointer;
               color: #DDAB4C;
               background: rgba(255,255,255,0.9);
-
+              text-decoration: none;
               border-bottom: #DDAB4C 0.125vh solid;
               transition: .5s;
               animation-name: category;

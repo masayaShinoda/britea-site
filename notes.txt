@@ -2,3 +2,44 @@ Britea yellow: #DDAB4C	221,171,76
 Location: 	#27 st. 307L303,
 	        Sangkat Beoung Kak 2, 
 		Khan Toul Kork, Phnom Penh.
+
+Menu classification:
+	Milk Tea:
+	M1 Royal Premium
+	   Milk Tea Pearl
+	M3 Classic Milk Tea Pearl
+	M5 Cheese Foam Royal Milk Tea
+
+	Fruit Tea:
+	F1 Britea Fruit Mix
+	F2 Queen Orange Tea
+	F3 Chia Fruit Mix Tea
+	F4 Peach Tea
+
+	Foam Tea:
+	"Tea & Cheese Foam"
+	C1 Earl Grey Tea Cheese Foam
+	C2 Queen Tea Cheese Foam
+	C3 Royal Tea Cheese Foam
+	"Tea & Macchiato"
+	MC1 Green Tea Macchiato
+	Mc3 Black Tea Macchiato 
+	MC4 Pure Tea Macchiato
+	
+	Flavored Tea:
+	FT1 Rose Tea
+	FT2 Jasmine Tea
+	FT3 Oolong Tea
+	FT4 Golden Tea
+	
+	Milkaholic:
+	BS1 Classic Brown Sugar Pearl Fresh Milk
+	BS3 Royal Brown Sugar Pearl Fresh Milk
+	
+	Topping:
+	Royal Pearl, Black Pearl, Rose Pearl, Brown Sugar Pearl, Royal Brown Sugar Pearl,
+	Extra Foam:
+	Macchiato
+	Cheese Foam
+
+	
