@@ -36,8 +36,8 @@ body {
     height: 20vh;
     /*border: red 1px solid;*/
     border-bottom: 0.125vh solid #DDAB4C;
-    z-index: 1;
     background: rgba(255,255,255,0.9);
+    top: 0;
   }
     #logo {
       min-width: 100px;
