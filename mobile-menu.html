@@ -11,6 +11,89 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
     <script src="britea-mobile.js"></script>
+    <style>
+
+    .menu-section-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /*border: 1px solid yellow; /* debug */
+    }
+    .menu-parent-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /*border: 1px solid purple; /* debug */
+    }
+      .heading-big {
+        font-size: 8vmin;
+        color: #DDAB4C;
+        padding: 1.75vmax;
+        padding-top: 3.5vmax;
+        border-bottom: 0.25vh solid #DDAB4C;
+        font-family: 'Noto Serif', serif;
+      }
+      .heading-small {
+        font-size: 3.5vh;
+        color: #DDAB4C;
+        padding: 1.25vmax;
+        padding-top: 1.75vmax;
+        font-family: 'Source Serif Pro', serif;
+      }
+      .menu-container {
+        display: flex;
+        margin: 2.5vh 1.25vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        -webkit-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
+        -moz-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
+        box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
+        /*border: 1px blue solid; /* - */
+        max-width: 85vw;
+                  border: 0.125vh solid #DDAB4C;
+      }
+        .menu-item {
+          /*border: 1px red solid; /* debug */
+
+        }
+          .menu-pic {
+            max-width: 80vw;
+          }
+          .desc-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: rgba(221,171,76,1);
+            color: white;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+          }
+            .item-name {
+              font-family: 'Source Serif Pro', serif;
+              padding: 1.25vmax;
+              padding-top: 2vmax;
+              border-bottom: 0.125vh solid white;
+              font-size: 3vmax;
+            }
+            .item-subname {
+              font-family: 'Open Sans', sans-serif;
+              padding: 0.5vmax;
+              font-size: 2.5vmax;
+            }
+            .item-price {
+              font-family: 'Open Sans';
+              font-size: 3vmax;
+              padding: 1vmax;
+            }
+
+
+    </style>
   </head>
   <body>
     <div class="parent-container-home">
@@ -41,23 +124,304 @@
 
         </div>
 
-
     </div>  <!--- upper container mobile ends here --->
-    <div class="contact-container-mobile">
-      <h1 class="heading-text">Where to find us:</h1>
-      <div class="map-box"> <!--- contains map --->
 
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=tokyo&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:250px;width:250px;}.gmap_canvas {overflow:hidden;background:none!important;height:175px;width:175px;}</style></div>
-
+    <div class="menu-section-container">
+      <!--- Milk Tea --->
+      <h1 class="heading-big" id="menu-milk-tea">Milk Tea</h1> <!--- heading-big is used as anchor --->
+      <div class="menu-parent-container">
+        <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+          <div class="menu-item">
+            <img src="M1.png" class="menu-pic">
+          </div>
+          <div class="desc-container">
+            <h2 class="item-name">
+              Milk Tea Pearl
+            </h2>
+            <p class="item-subname">
+              Royal Premium
+            </p>
+            <p class="item-price">
+              $1.49
+            </p>
+          </div>
+        </div>  <!--- ending here is 1 menu item --->
+        <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+          <div class="menu-item">
+            <img src="M3.png" class="menu-pic">
+          </div>
+          <div class="desc-container">
+            <h2 class="item-name">
+              Milk Tea Pearl
+            </h2>
+            <p class="item-subname">
+              Classic
+            </p>
+            <p class="item-price">
+              $1.49
+            </p>
+          </div>
+        </div>  <!--- ending here is 1 menu item --->
       </div>
-      <p class="content-text">
-        #27, St. 307L303,
-        Sangkat Beoung Kak 2,
-        Khan Toul Kork, Phnom Penh.
-      </p>
-
-
+      <!--- Milk Tea end --->
     </div>
+    <div class="menu-section-container">
+      <h1 class="heading-big" id="menu-fruit-tea">Fruit Tea</h1>
+      <div class="menu-parent-container">
+      <!--- Fruit Tea --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="F1.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Britea Fruit Mix
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="F2.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Queen Orange Tea
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="F3.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Chia Fruit Mix Tea
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="F4.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Peach Tea
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      </div> <!--- menu parent container ends --->
+    </div>  <!--- menu section ends --->
+    <div class="menu-section-container">
+      <h1 class="heading-big" id="menu-foam-tea">Foam Tea</h1>
+      <h2 class="heading-small">Tea & Cheese Foam</h2>
+      <div class="menu-parent-container">
+      <!--- Foam Tea --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="C1.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Earl Grey Tea
+          </h2>
+          <p class="item-subname">
+            Cheese Foam
+          </p>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="C2.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Queen Tea
+          </h2>
+          <p class="item-subname">
+            Cheese Foam
+          </p>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="C3.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Royal Tea
+          </h2>
+          <p class="item-subname">
+            Cheese Foam
+          </p>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      </div> <!--- menu parent container ends --->
+    </div>  <!--- menu section ends --->
 
+    <div class="menu-section-container">
+      <h2 class="heading-small">Tea & Macchiato</h2>  <!--- no pic yet as of 13 Jun --->
+      <div class="menu-parent-container">
+      <!--- Foam Tea --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="MC1.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Green Tea Macchiato
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="MC3.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Black Tea Macchiato
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="MC4.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Pure Tea Macchiato
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      </div> <!--- menu parent container ends --->
+    </div>  <!--- menu section ends --->
+
+    <div class="menu-section-container">
+      <h1 class="heading-big" id="menu-flavored-tea">Flavored Tea</h1>
+      <div class="menu-parent-container">
+      <!--- Fruit Tea --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="FT1.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Rose Tea
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="FT2.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Jasmine Tea
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="FT3.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Oolong Tea
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+        <div class="menu-item">
+          <img src="FT4.png" class="menu-pic">
+        </div>
+        <div class="desc-container">
+          <h2 class="item-name">
+            Golden Tea
+          </h2>
+          <p class="item-price">
+            $1.49
+          </p>
+        </div>
+      </div>  <!--- ending here is 1 menu item --->
+      </div> <!--- menu parent container ends --->
+    </div>  <!--- menu section ends --->
+
+    <div class="menu-section-container">
+      <!--- Milk Tea --->
+      <h1 class="heading-big" id="menu-milkaholic">Milkaholic</h1> <!--- heading-big is used as anchor --->
+      <div class="menu-parent-container">
+        <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+          <div class="menu-item">
+            <img src="BS1.png" class="menu-pic">
+          </div>
+          <div class="desc-container">
+            <h2 class="item-name">
+              Brown Sugar Pearl Fresh Milk
+            </h2>
+            <p class="item-subname">
+              Classic
+            </p>
+            <p class="item-price">
+              $1.49
+            </p>
+          </div>
+        </div>  <!--- ending here is 1 menu item --->
+        <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
+          <div class="menu-item">
+            <img src="BS3.png" class="menu-pic">
+          </div>
+          <div class="desc-container">
+            <h2 class="item-name">
+              Brown Sugar Pearl Fresh Milk
+            </h2>
+            <p class="item-subname">
+              Royal
+            </p>
+            <p class="item-price">
+              $1.49
+            </p>
+          </div>
+        </div>  <!--- ending here is 1 menu item --->
+      </div>
+      <!--- Milk Tea end --->
+    </div>
   </body>
 </html>
