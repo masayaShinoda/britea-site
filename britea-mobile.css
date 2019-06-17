@@ -7,9 +7,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  /*
-  background-image: url('mobile-body-bg.jpg');
-  */
+
 }
 ::selection {
   background-color: #DDAB4C;
@@ -41,21 +39,12 @@ body {
   .header-container-desktop {
     display: none;  /* doesn't display on mobile */
   }
-    .home-container-mobile {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
 
-      width: 90vw;
-      border-radius: 5vmax;
-      max-height: 40vh;
-
-    }
       .logo-container-mobile {
         display: inline-block;
         margin: 5vmax 5vmin; /* important */
-        width: 25vw;
-        height: 25vw;
+        width: 25vmin;
+        height: 25vmin;
         /*border: green 1px solid; /* debug */
       }
         #logo-small-mobile {
@@ -149,6 +138,7 @@ body {
     .heading-text {
       font-family: 'Source Serif Pro', serif;
       color: #DDAB4C;
+      font-size: 4vmax;
       padding: 2.5vmin;
     }
     .map-box { /* contains map */
@@ -157,10 +147,12 @@ body {
     }
     .content-text {
       text-align: center;
+      font-size: 2.25vmax;
       font-family: 'Open Sans', sans-serif;
       margin: 1.25vmax;
       color: #DDAB4C;
       line-height: 1.6;
+      max-width: 65vw;
     }
   .footer-container-desktop { /* doesn't show up on mobile */
     display: none;
