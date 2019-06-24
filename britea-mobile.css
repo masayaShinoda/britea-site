@@ -81,7 +81,7 @@ body {
 
       }
       .overlay a {  /* nav-links for mobile */
-        padding: 2.75vh;
+        padding: 2.75vmax;
         color: white;
         font-size: 2rem;
         text-decoration: none;
@@ -94,8 +94,8 @@ body {
         }
       .overlay .closeBtn {
         position: absolute;
-        top: 5vh;
-        right: 10vw;
+        top: 5vmax;
+        right: 10vmin;
         font-size: 2rem;
       }
     .underlay {
@@ -143,7 +143,7 @@ body {
     }
     .map-box { /* contains map */
       margin: 1.25vmax;
-      border: 0.125vh #DDAB4C solid;
+      border: 0.125vmax #DDAB4C solid;
     }
     .content-text {
       text-align: center;
@@ -152,7 +152,7 @@ body {
       margin: 1.25vmax;
       color: #DDAB4C;
       line-height: 1.6;
-      max-width: 65vw;
+      max-width: 65vmin;
     }
   .footer-container-desktop { /* doesn't show up on mobile */
     display: none;
@@ -164,7 +164,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100vmin;
 
   }
     .vuth-code:visited #icon {
@@ -177,17 +177,17 @@ body {
     .vuth-code:hover .mid-nav{
       display: block;
       margin: 2.5%;
-      margin-top: 7.5vh;
+      margin-top: 7.5vmax;
     }
   .bar1, .bar2, .bar3 {
-    width: 13.5vw;
-    height: 0.65vh;
+    width: 13.5vmin;
+    height: 0.65vmax;
     background-color: #DDAB4C;
-    margin: 0.75vh 0;
+    margin: 0.75vmax 0;
   }
     .mid-nav {
-      margin: 12.5vh 0px;
-      width: 100vw;
+      margin: 12.5vmax 0px;
+      width: 100vmin;
       display: none;
       animation-name: appear-nav;
       animation-duration: 0.75s;
@@ -195,7 +195,7 @@ body {
 
     }
       @keyframes appear-nav {
-        0% {padding-right: 100vw;}
+        0% {padding-right: 100vmin;}
 
       }
     .mid-nav ul {
@@ -220,8 +220,8 @@ body {
       color: white;
     }
     .mid-nav a {
-      padding: 1.5vh;
-      padding-top: 2.5vh;
+      padding: 1.5vmax;
+      padding-top: 2.5vmax;
       font-family: 'Oxygen', sans-serif;
       font-size: 2rem;
     }

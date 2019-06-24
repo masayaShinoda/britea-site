@@ -32,41 +32,40 @@ body {
     position: fixed;
     align-items: flex-end;
     justify-content: space-around;
-    width: 100vw;
-    height: 20vh;
+    width: 100vmax;
+    height: 20vmin;
     /*border: red 1px solid;*/
-    border-bottom: 0.125vh solid #DDAB4C;
+    border-bottom: 0.125vmin solid #DDAB4C;
     background: rgba(255,255,255,0.9);
     top: 0;
   }
     #logo {
-      max-width: 7.5vw;
-      margin-bottom: 2.5vh;
-      margin-left: 7.5vw;
+      max-width: 7.5vmax;
+      margin-bottom: 2.5vmin;
+      margin-left: 7.5vmax;
     }
     .navbar {
       display: flex;
-      margin-bottom: -1.25vh;
+      margin-bottom: -1.25vmin;
     }
       .option {
         font-family: 'Oxygen', serif;
         color: #DDAB4C;
-        font-size: 1.25rem;
-        border: 0.125vh #DDAB4C solid;
+        border: 0.125vmin #DDAB4C solid;
         background: rgba(255,255,255,0.9);
         font-size: 1.25vmax;
-        letter-spacing: 0.125vw;
+        letter-spacing: 0.125vmax;
         text-decoration: none;
-        padding: 2.5vw;
-        padding-top: 1.25vh;
-        padding-bottom: 1.25vh;
-        margin-bottom: 5vh;
+        padding: 2.25vmax;
+        padding-top: 1.25vmin;
+        padding-bottom: 1.25vmin;
+        margin-bottom: 5vmin;
         animation-name: nav-link;
         animation-duration: 2s;
         animation-fill-mode: forwards;
         transition: .3s;
         border-radius: 2.5vmax;
-        margin-left: 1.25vw;
+        margin-left: 1.25vmax;
       }
         @keyframes nav-link {
           0% {padding-right: 0; padding-left: 0; font-size: 0.75rem;}
@@ -87,24 +86,24 @@ body {
           .dropdown:hover .dropdown-content {
             display: block;
             position: absolute;
-            margin-top: 5.25vh;
-            margin-left: 1.75vw;
-            margin-top: 7vh;
+            margin-top: 5.25vmin;
+            margin-left: 1.75vmax;
+            margin-top: 7vmin;
             z-index: 1;
           }
             .category {
               display: flex;
               justify-content: space-between;
-              min-width: 7.5vw;
+              min-width: 7.5vmax;
               font-size: 1rem;
               font-family: 'Source Serif Pro', serif;
-              letter-spacing: 0.05vw;
-              padding: 1.25vh 1.25vw;
+              letter-spacing: 0.05vmax;
+              padding: 1.25vmin 1.25vmax;
               cursor: pointer;
               color: #DDAB4C;
               background: rgba(255,255,255,0.9);
               text-decoration: none;
-              border-bottom: #DDAB4C 0.125vh solid;
+              border-bottom: #DDAB4C 0.125vmin solid;
               transition: .5s;
               animation-name: category;
               animation-duration: .5s;
@@ -117,8 +116,8 @@ body {
               .category:hover {
                 background: #DDAB4C;
                 color: white;
-                margin-top: 0.75vh;
-                margin-bottom: 0.75vh;
+                margin-top: 0.75vmin;
+                margin-bottom: 0.75vmin;
               }
             ul {
               list-style-type: none;
@@ -127,21 +126,21 @@ body {
               display: flex;
               justify-content: space-around;
               padding: 0;
-              margin-top: 20Vh;
-              width: 100vw;
-              height: 65vh;
+              margin-top: 20vmin;
+              width: 100vmax;
+              height: 65vmin;
               /*border: 1px solid green; /* debug */
 
 
             }
               .image-banner {
-                max-width: 80vw;
-                border: 0.125vh #DDAB4C solid;
+                max-width: 80vmax;
+                border: 0.125vmin #DDAB4C solid;
               }
               .slider-container {
                 /*width: 35vmax;
                 height: 26.25vmax;*/
-                border: 0.125vh solid #DDAB4C;
+                border: 0.125vmin solid #DDAB4C;
                 overflow: hidden;
 
               }
@@ -156,12 +155,12 @@ body {
                 /*border: red 1px solid; /* debug */
                 color: white;
                 border-radius: 2.5vmax;
-                /*border: #DDAB4C solid 0.125vh;*/
+                /*border: #DDAB4C solid 0.125vmin;*/
               }
                 .content-header {
                   font-family: 'Source Serif Pro', serif;
                   background: rgba(221,171,76,.9);
-                  border: white 0.125vh solid;
+                  border: white 0.125vmin solid;
                   border-radius: 2.5vmin;
                   padding: 2.5vmin;
                 }
@@ -170,27 +169,27 @@ body {
       display: flex;
       position: absolute;
       bottom: -30%; /* debug */
-      max-width: 100vw;
-      width: 100vw;
+      max-width: 100vmax;
+      width: 100vmax;
       align-items: flex-start;
       justify-content: center;
-      border: 0.125vh solid #DDAB4C;
+      border: 0.125vmin solid #DDAB4C;
       border-bottom: none;
       background: rgba(255,255,255,1);
       padding: 2.5vmin;
     }
       .left-box { /* contains map */
-        margin: 1.25vw;
-        border: 0.125vh #DDAB4C solid;
+        margin: 1.25vmax;
+        border: 0.125vmin #DDAB4C solid;
       }
       .mid-box {
         display: flex;
         flex-direction: column;
-        padding: 1.5vh 1.5vw;
-        margin: 1.25vw;
+        padding: 1.5vmin 1.5vmax;
+        margin: 1.25vmax;
         margin-left: 0;
-        letter-spacing: 0.05vw;
-        max-width: 50vw;
+        letter-spacing: 0.05vmax;
+        max-width: 50vmax;
         color: #DDAB4C;
         font-family: 'Open Sans', sans-serif;
         line-height: 1.6;
@@ -199,8 +198,8 @@ body {
 
       }
         .address {
-          border-bottom: #DDAB4C solid 0.125vh;
-          padding: 1.25vh 0;
+          border-bottom: #DDAB4C solid 0.125vmin;
+          padding: 1.25vmin 0;
         }
   .home-container-mobile {  /* doesn't show up on desktop */
       display: none;
@@ -211,12 +210,12 @@ body {
     display: flex;
     align-items: center;
 
-    padding: 1.25vh 0;
-    margin-left: -0.75vw;
+    padding: 1.25vmin 0;
+    margin-left: -0.75vmax;
   }
     #social-icon {
-      max-width: 4.5vw;
-      padding: 0.75vw;
+      max-width: 4.5vmax;
+      padding: 0.75vmax;
     }
     .social-content {
       display: flex;
