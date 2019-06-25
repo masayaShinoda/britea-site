@@ -19,7 +19,6 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: rgba(255,255,255,0.125); /* white filter */
 
 
 
@@ -58,11 +57,12 @@ body {
           max-width: 15vmax;
         }
         #logo-mobile-homepage {
+          padding: 2.5vmax;
           min-width: 100px;
           max-width: 80vmin;
           margin-top: -25vmax;
           border-radius: 100%;
-          background: rgba(255,255,255,.9);
+          background: rgba(255,255,255,1);
         }
 
   /* copied from G-LVN */
@@ -116,7 +116,7 @@ body {
         color: #DDAB4C;
         margin-top: 2.5vmax;
         border-radius: 100%;
-        background: rgba(255,255,255,0.9);
+        background: rgba(255,255,255,1);
       }
         .burger-top, .burger-mid, .burger-bottom {
           width: 5vmax;
