@@ -15,7 +15,8 @@
   </head>
   <style>
     body {
-      background: none;
+      background: url('tea 2.jpg') no-repeat center center fixed;
+      background-size: cover;
     }
 
     .center-container-desktop {
@@ -27,6 +28,7 @@
       justify-content: center;
       margin-top: 20vmin;
       width: 100vmax;
+      background: rgba(255,255,255,0.65); /* makes body's background image less significant */
 
     }
     .menu-section-container {
@@ -72,11 +74,14 @@
         border: 0.125vmin solid #DDAB4C;
       }
         .menu-item {
-          /*border: 1px red solid; /* debug */
+
 
         }
           .menu-pic {
-            max-width: 12.5vmax;
+            max-width: 13.75vmax;
+            height: 100%;
+            background: rgba(221,171,76,0.125);
+
           }
           .desc-container {
             display: flex;
