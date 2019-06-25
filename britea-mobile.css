@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 body {
-
+  background: url('tea 2.jpg') no-repeat center center fixed;
 }
 ::selection {
   background-color: #DDAB4C;
@@ -15,10 +15,13 @@ body {
 }
 .parent-container {
   display: flex;
-  height: 90vmax;
+  height: 100vmax;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background: rgba(255,255,255,0.75); /* white filter */
+
+
   /*border: blue 1px solid; /* debug */
 }
 .parent-container-home {
@@ -45,6 +48,7 @@ body {
         margin: 5vmax 5vmin; /* important */
         width: 25vmin;
         height: 25vmin;
+
         /*border: green 1px solid; /* debug */
       }
         #logo-small-mobile {
@@ -56,7 +60,8 @@ body {
           min-width: 100px;
           max-width: 80vmin;
           margin-top: -25vmax;
-
+          border-radius: 100%;
+          background: rgba(255,255,255,.25);
         }
 
   /* copied from G-LVN */
@@ -111,10 +116,11 @@ body {
         margin-top: 2.5vmax;
       }
         .burger-top, .burger-mid, .burger-bottom {
-          width: 40px;
-          height: 2.85px;
+          width: 50px;
+          height: 5px;
           background: #DDAB4C;
           margin-top: .75vmax;
+          box-shadow: 2.5px 2.5px 5vmin rgba(255,255,255,.9);
         }
 
   .mid-container-home {
