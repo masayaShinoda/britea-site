@@ -61,7 +61,7 @@ body {
           max-width: 80vmin;
           margin-top: -25vmax;
           border-radius: 100%;
-          background: rgba(255,255,255,.25);
+          background: rgba(255,255,255,.75);
         }
 
   /* copied from G-LVN */
@@ -111,9 +111,11 @@ body {
       justify-content: space-around;
     }
       .openBtn {
-        padding: 3vmax 3vmin;
+        padding: 3.75vmax 3.75vmax;
         color: #DDAB4C;
         margin-top: 2.5vmax;
+        border-radius: 100%;
+        background: rgba(255,255,255,0.75);
       }
         .burger-top, .burger-mid, .burger-bottom {
           width: 50px;
