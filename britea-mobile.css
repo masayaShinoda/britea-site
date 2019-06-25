@@ -118,10 +118,10 @@ body {
         background: rgba(255,255,255,0.75);
       }
         .burger-top, .burger-mid, .burger-bottom {
-          width: 50px;
-          height: 5px;
+          width: 5vmax;
+          height: .5vmax;
           background: #DDAB4C;
-          margin-top: .75vmax;
+          margin-top: 1vmax;
           box-shadow: 2.5px 2.5px 5vmin rgba(255,255,255,.9);
         }
 
