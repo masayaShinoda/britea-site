@@ -34,6 +34,7 @@ body {
     display: flex;
     position: fixed;
     align-items: flex-end;
+    z-index: 100;
     justify-content: space-around;
     width: 100vmax;
     height: 20vmin;
@@ -143,7 +144,13 @@ body {
                 -moz-box-shadow: .5vmax .5vmax .75vmax rgba(221,171,76,0.9);
                 box-shadow: .5vmax .5vmax .75vmax rgba(221,171,76,0.9);
                 border: #DDAB4C solid 0.125vmin;
+                animation-name: banner-appear;
+                animation-fill-mode: forwards;
+                animation-duration: 2s;
               }
+                @keyframes banner-appear {
+                  0% {opacity: 0; margin-right: -50vmax;}
+                }
               .slider-container {
                 /*width: 35vmax;
                 height: 26.25vmax;*/
