@@ -133,9 +133,9 @@ body {
 
             }
               .image-banner {
-                max-width: 65vmax;
+                max-width: 60vmax;
                 margin: 2.5vmax;
-                /*border: 0.125vmin #DDAB4C solid;*/
+                box-shadow: .5vmax .5vmax .75vmax rgba(221,171,76,0.9);
               }
               .slider-container {
                 /*width: 35vmax;
@@ -172,7 +172,7 @@ body {
       width: 100vmax;
       align-items: flex-start;
       justify-content: center;
-      border: 0.125vmin solid #DDAB4C;
+      border-top: 0.125vmin solid #DDAB4C;
       border-bottom: none;
       background: rgba(255,255,255,1);
       padding: 2.5vmin;
