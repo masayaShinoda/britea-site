@@ -1,5 +1,332 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: url('exterior.jpg') no-repeat center center fixed;
+}
+::selection {
+  background-color: #DDAB4C;
+  color: white;
+}
+.parent-container {
+  display: flex;
+  height: 100vmax;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /*background: rgba(255,255,255,.125);*/
+
+
+  /*border: blue 1px solid; /* debug */
+}
+.parent-container-home {
+  display: flex;
+  margin: 5vmin;
+  margin-bottom: 0; /* to fix bleeding at bottom */
+  flex-direction: column;
+
+
+  /*border: 1px red solid; /* debug */
+}
+  .upper-container-mobile {
+    display: flex;
+    justify-content: space-around;
+
+    /*border: blue 1px solid; /* debug */
+  }
+  .header-container-desktop {
+    display: none;  /* doesn't display on mobile */
+  }
+
+      .logo-container-mobile {
+        display: inline-block;
+        margin: 5vmax 5vmin; /* important */
+        width: 25vmin;
+        height: 25vmin;
+
+        /*border: green 1px solid; /* debug */
+      }
+        #logo-small-mobile {
+          display: inline-block;
+          min-width: 64px;
+          max-width: 15vmax;
+        }
+        #logo-mobile-homepage {
+          padding: 2.5vmax;
+          min-width: 100px;
+          max-width: 80vmin;
+          margin-top: -25vmax;
+          border-radius: 100%;
+          background: rgba(255,255,255,.95);
+        }
+
+  /* copied from G-LVN */
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background: rgba(221,171,76,0.9);
+      overflow-x: hidden;
+      z-index: 5;
+      transition: all .35s;
+    }
+      .overlay__content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+
+      }
+      .overlay a {  /* nav-links for mobile */
+        padding: 2.75vmax;
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        font-family: 'Source Open Sans', sans-serif;
+        display: block;
+      }
+        .overlay a:hover {
+          color: #DDAB4C;
+          background-color: white;
+        }
+      .overlay .closeBtn {
+        position: absolute;
+        top: 5vmax;
+        right: 10vmin;
+        font-size: 2rem;
+      }
+    .underlay {
+      display: flex;
+      height: 17.5vmax;
+      /*border: red 1px solid; /* debug */
+      align-items: center;
+      justify-content: space-around;
+    }
+      .openBtn {
+        padding: 3.75vmax;
+        color: #DDAB4C;
+        margin-top: 4.5vmax;
+        border-radius: 100%;
+        background: rgba(255,255,255,.95);
+      }
+        .burger-top, .burger-mid, .burger-bottom {
+          width: 5.75vmax;
+          height: .5vmax;
+          background: #DDAB4C;
+          margin-top: 1vmax;
+          box-shadow: 2.5px 2.5px 5vmin rgba(255,255,255,.9);
+        }
+
+  .mid-container-home {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /*border: orange 1px solid; /* debug */
+
+  }
+    .mobile-home-pic {
+      max-width: 100vmin;
+    }
+  .contact-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: red 1px solid; /* debug */
+  }
+    .heading-text {
+      font-family: 'Source Serif Pro', serif;
+      color: #DDAB4C;
+      font-size: 4vmax;
+      padding: 2.5vmin;
+    }
+    .map-box { /* contains map */
+      margin: 1.25vmax;
+      border: 0.125vmax #DDAB4C solid;
+    }
+    .content-text {
+      text-align: center;
+      font-size: 2.25vmax;
+      font-family: 'Open Sans', sans-serif;
+      margin: 1.25vmax;
+      color: #DDAB4C;
+      line-height: 1.6;
+      max-width: 65vmin;
+    }
+  .footer-container-desktop { /* doesn't show up on mobile */
+    display: none;
+  }
+
+  /* Vuth CSS */
+  /*.vuth-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vmin;
+
+  }
+    .vuth-code:visited #icon {
+      display: none;
+
+    }
+    .vuth-code:hover #icon {
+      display: none;
+    }
+    .vuth-code:hover .mid-nav{
+      display: block;
+      margin: 2.5%;
+      margin-top: 7.5vmax;
+    }
+  .bar1, .bar2, .bar3 {
+    width: 13.5vmin;
+    height: 0.65vmax;
+    background-color: #DDAB4C;
+    margin: 0.75vmax 0;
+  }
+    .mid-nav {
+      margin: 12.5vmax 0px;
+      width: 100vmin;
+      display: none;
+      animation-name: appear-nav;
+      animation-duration: 0.75s;
+      animation-fill-mode: forwards;
+
+    }
+      @keyframes appear-nav {
+        0% {padding-right: 100vmin;}
+
+      }
+    .mid-nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      width:100%;
+    }
+    .mid-nav ul li {
+      width:100%;
+    }
+    .mid-nav ul li a {
+      display: block;
+      color: #DDAB4C;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .mid-nav ul li a:hover {
+      background-color: #DDAB4C;
+      color: white;
+    }
+    .mid-nav a {
+      padding: 1.5vmax;
+      padding-top: 2.5vmax;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 2rem;
+    }
+    */
+  .mid-container-desktop {  /* doesn't show up on mobile */
+    display: none;
+  }
+
+/* contacts */
+
+/* menu */
+.menu-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8.5vmax;
+  border: 1px solid black; /* debug */
+}
+.menu-parent-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid purple; /* debug */
+}
+  #menu-foam-tea { /* contains two small headings, needs unique changes */
+    margin-bottom: -3.75vmax;
+  }
+  .heading-big {
+    font-size: 3.75vmin;
+    z-index: 101;
+    color: #DDAB4C;
+    padding: .25vmax;
+    padding-top: 11.75vmax;
+    margin-bottom: .5vmax;
+    border-bottom: 0.25vmin solid #DDAB4C;
+    font-family: 'Noto Serif', serif;
+  }
+  .heading-small {
+    font-size: 3vmin;
+    color: #DDAB4C;
+    padding: 1vmax;
+    padding-top: 3.5vmax;
+    margin-top: 5vmax;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .menu-container {
+    display: flex;
+    margin: 2.5vmin 1.25vmax;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    -webkit-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
+    -moz-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
+    box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
+    border: 1px blue solid; /* debug */
+    max-width: 15vmax;
+    border: 0.125vmin solid #DDAB4C;
+  }
+    .menu-item {
+
+      background: rgba(221,171,76,0.25);
+    }
+      .menu-pic {
+        max-width: 15vmax;
+        height: 100%;
+
+
+      }
+      .desc-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(221,171,76,1);
+        color: white;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+        .item-name {
+          font-family: 'Source Serif Pro', serif;
+          margin-top: 1.25vmin;
+          padding: 1.5vmin;
+          border-bottom: 0.125vmin solid white;
+          font-size: 2.75vmin;
+        }
+        .item-subname {
+          font-family: 'Open Sans', sans-serif;
+          padding: 1vmin;
+          font-size: 2vmin;
+        }
+        .item-price {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 2.5vmin;
+          font-weight: 600;
+          padding: 1vmin;
+          margin-bottom: 1.25vmin;
+        }

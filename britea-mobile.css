@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
+  /*background: rgba(255,255,255,.125);*/
 
 
   /*border: blue 1px solid; /* debug */
@@ -62,7 +62,7 @@ body {
           max-width: 80vmin;
           margin-top: -25vmax;
           border-radius: 100%;
-          background: rgba(255,255,255,1);
+          background: rgba(255,255,255,.95);
         }
 
   /* copied from G-LVN */
@@ -116,7 +116,7 @@ body {
         color: #DDAB4C;
         margin-top: 4.5vmax;
         border-radius: 100%;
-        background: rgba(255,255,255,1);
+        background: rgba(255,255,255,.95);
       }
         .burger-top, .burger-mid, .burger-bottom {
           width: 5.75vmax;
