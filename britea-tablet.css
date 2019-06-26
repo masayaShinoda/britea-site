@@ -248,12 +248,12 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -8.5vmax;
-  border: 1px solid black; /* debug */
+  /*border: 1px solid black; /* debug */
 }
 .menu-parent-container {
   display: flex;
   flex-direction: row;
-  border: 1px solid purple; /* debug */
+  /*border: 1px solid purple; /* debug */
 }
   #menu-foam-tea { /* contains two small headings, needs unique changes */
     margin-bottom: -3.75vmax;
@@ -286,7 +286,7 @@ body {
     -webkit-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
     -moz-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
     box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
-    border: 1px blue solid; /* debug */
+    /*border: 1px blue solid; /* debug */
     max-width: 15vmax;
     border: 0.125vmin solid #DDAB4C;
   }
