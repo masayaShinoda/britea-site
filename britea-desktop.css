@@ -51,6 +51,7 @@ body {
     .navbar {
       display: flex;
       margin-bottom: -1.25vmin;
+      margin-left: -20vmax;
     }
       .option {
         font-family: 'Oxygen', serif;
