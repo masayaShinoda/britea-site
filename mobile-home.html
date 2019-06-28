@@ -3,7 +3,7 @@
   <head>
     <title>Britea Cambodia</title>
     <link rel="stylesheet" media="screen and (min-width: 1025px)" href="britea-desktop.css">
-    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="britea-mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="britea-tablet.css">
     <link rel="stylesheet" media="screen and (max-width: 480px)" href="britea-mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo-transparent.png">
@@ -12,24 +12,27 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
     <script src="britea-mobile.js"></script>
     <style>
-      body {
-        background: none;
-      }
-
+    /* to differentiate from index.html */
+    body {
+      background: white;
+    }
+    .openBtn {
+      margin-top: 7.5vmax;
+    }
+    /* differentiation end */
       .home-pic-container-mobile {
         display: flex;
         flex-direction: column;
         /*border: 1px solid red;*/
+        margin-top: 5vmax;
         align-items: center;
-        max-width: 100vw;
+        max-width: 100vmin;
       }
         #mobile-home-pic {
-          margin-top: 4.25vmax;
           max-width: 100vmin;
 
         }
         #tablet-home-pic {
-          margin-top: 3.25vmax;
           max-width: 100vmin;
         }
         /* different homepage pic for mobile */

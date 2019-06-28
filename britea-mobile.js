@@ -1,6 +1,6 @@
 function openNav() {
-  document.getElementById('nav').style.width = "100%";
+  document.getElementById('nav').style.height = "100%";
 }
 function closeNav() {
-  document.getElementById('nav').style.width = "0%";
+  document.getElementById('nav').style.height = "0%";
 }

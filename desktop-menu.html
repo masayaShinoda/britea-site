@@ -15,10 +15,9 @@
   </head>
   <style>
     body {
-      background: url('tea 2.jpg') no-repeat center center fixed;
-      background-size: cover;
+      background: none;
+      flex-direction: column;-
     }
-
     .center-container-desktop {
       display: flex;
       flex-direction: column;
@@ -28,7 +27,6 @@
       justify-content: center;
       margin-top: 20vmin;
       width: 100vmax;
-      background: rgba(255,255,255,0.65); /* makes body's background image less significant */
 
     }
     .menu-section-container {
@@ -36,33 +34,31 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: -5vmax;
-      /*border: 1px solid black; /* debug */
+      /*border: 1px solid yellow; /* debug */
     }
     .menu-parent-container {
       display: flex;
       flex-direction: row;
       /*border: 1px solid purple; /* debug */
     }
-      #menu-foam-tea { /* contains two small headings, needs unique changes */
-        margin-bottom: -3.75vmax;
+      #menu-foam-tea {  /* independent changes to this one required */
+        margin-bottom: -.5vmax;
       }
       .heading-big {
         font-size: 3.75vmin;
-        z-index: 101;
         color: #DDAB4C;
-        padding: .25vmax;
-        padding-top: 11.75vmax;
+        padding: .75vmax;
+        padding-top: 12.5vmax;
         margin-bottom: 1.25vmax;
         border-bottom: 0.25vmin solid #DDAB4C;
         font-family: 'Noto Serif', serif;
+        margin-top: -10vmax;
       }
       .heading-small {
         font-size: 3vmin;
         color: #DDAB4C;
         padding: 1vmax;
         padding-top: 2.5vmax;
-        margin-top: 3.75vmax;
         font-family: 'Source Serif Pro', serif;
       }
       .menu-container {
@@ -80,14 +76,11 @@
         border: 0.125vmin solid #DDAB4C;
       }
         .menu-item {
+          /*border: 1px red solid; /* debug */
 
-          background: rgba(221,171,76,0.25);
         }
           .menu-pic {
-            max-width: 15vmax;
-            height: 100%;
-
-
+            max-width: 12.5vmax;
           }
           .desc-container {
             display: flex;

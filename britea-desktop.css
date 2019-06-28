@@ -8,10 +8,9 @@ html {
 }
 body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   max-width: 100vmax;
-  background: url('tea 3.jpg') no-repeat center center fixed;
+  background: url('exterior-blurred.jpg') center center fixed;
   background-size: cover;
 }
 ::selection {
@@ -28,13 +27,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  
 }
   .header-container-desktop {
     display: flex;
     position: fixed;
     align-items: flex-end;
-    z-index: 100;
     justify-content: space-around;
     width: 100vmax;
     height: 20vmin;
@@ -51,7 +49,7 @@ body {
     .navbar {
       display: flex;
       margin-bottom: -1.25vmin;
-      margin-left: -20vmax;
+      margin-right: 5vmax;
     }
       .option {
         font-family: 'Oxygen', serif;
@@ -73,7 +71,7 @@ body {
         margin-left: 1.25vmax;
       }
         @keyframes nav-link {
-          0% {padding:0; font-size: 0.75vmax;}
+          0% {padding-right: 0; padding-left: 0; font-size: 0.75vmax;}
 
         }
         .navbar .option:hover {
@@ -138,20 +136,12 @@ body {
 
             }
               .image-banner {
-                width: 60vmax;
                 max-width: 60vmax;
                 margin: 2.5vmax;
-                -webkit-box-shadow: .5vmax .5vmax .75vmax rgba(221,171,76,0.9);
-                -moz-box-shadow: .5vmax .5vmax .75vmax rgba(221,171,76,0.9);
-                box-shadow: .5vmax .5vmax .75vmax rgba(221,171,76,0.9);
-                border: #DDAB4C solid 0.125vmin;
-                animation-name: banner-appear;
-                animation-fill-mode: forwards;
-                animation-duration: 2s;
+
+
+                box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);
               }
-                @keyframes banner-appear {
-                  0% {opacity: 0; margin-right: -50vmax;}
-                }
               .slider-container {
                 /*width: 35vmax;
                 height: 26.25vmax;*/
@@ -183,15 +173,15 @@ body {
     .footer-container-desktop {
       display: flex;
       position: absolute;
-      bottom: -30vmin; /* works best if its the same value as height */
+      bottom: -40%; /* debug */
       width: 100vmax;
       align-items: flex-start;
       justify-content: center;
       border-top: 0.125vmin solid #DDAB4C;
-      border-bottom: none;
       background: rgba(255,255,255,.9);
       padding: 2.5vmin;
-      height: 30vmin;
+      padding-bottom: 0;
+      min-height: 30vmin;
     }
       .left-box { /* contains map */
         margin: 1.25vmax;
@@ -204,12 +194,10 @@ body {
         margin: 1.25vmax;
         margin-left: 0;
         letter-spacing: 0.05vmax;
-        width: 35vmax;
         max-width: 50vmax;
         color: #DDAB4C;
         font-family: 'Open Sans', sans-serif;
         line-height: 1.6;
-        font-weight: 600;
         text-align: left;
 
 
@@ -226,6 +214,7 @@ body {
   .contact-box {
     display: flex;
     align-items: center;
+
     padding: 1.25vmin 0;
     margin-left: -0.75vmax;
   }
