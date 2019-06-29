@@ -174,7 +174,7 @@ body {
     .footer-container-desktop {
       display: flex;
       position: absolute;
-      bottom: -40%; /* debug */
+      bottom: -30vmin; /* debug */ /* subject to changes */
       width: 100vmax;
       align-items: flex-start;
       justify-content: center;

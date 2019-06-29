@@ -45,7 +45,7 @@
         margin-bottom: -.5vmax;
       }
       .heading-big {
-        font-size: 2.25vmax;
+        font-size: 2vmax;
         color: #DDAB4C;
         padding: .75vmax;
         padding-top: 12.5vmax;
@@ -55,7 +55,7 @@
         margin-top: -10vmax;
       }
       .heading-small {
-        font-size: 1.75vmax;
+        font-size: 1.5vmax;
         color: #DDAB4C;
         padding: 1vmax;
         padding-top: 2.5vmax;
@@ -67,7 +67,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
+        height: 100%;
         -webkit-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
         -moz-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
         box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
@@ -76,6 +76,7 @@
       }
         .menu-item {
           /*border: 1px red solid; /* debug */
+
 
         }
           .menu-pic {
@@ -91,6 +92,7 @@
             background: rgba(221,171,76,1);
             color: white;
             width: 100%;
+            min-height: 50%;
             text-align: center;
           }
             .item-name {
@@ -98,17 +100,17 @@
               margin-top: 1.25vmin;
               padding: 1.5vmin;
               border-bottom: 0.125vmin solid white;
-              font-size: 1.75vmax;
-              max-width: 20vmax;
+              font-size: 1.5vmax;
+              max-width: 17.5vmax;
             }
             .item-subname {
               font-family: 'Open Sans', sans-serif;
               padding: 1vmin;
-              font-size: 1.5vmax;
+              font-size: 1.25vmax;
             }
             .item-price {
               font-family: 'Open Sans', sans-serif;
-              font-size: 1.75vmax;
+              font-size: 1.5vmax;
               font-weight: 600;
               padding: 1vmin;
               margin-bottom: 1.25vmin;
@@ -441,5 +443,13 @@
       <!--- Milk Tea end --->
     </div>
 
+    <script>
+      function openNav() {
+        document.getElementById('nav').style.height = "100%";
+      }
+      function closeNav() {
+        document.getElementById('nav').style.height = "0%";
+      }
+    </script>
   </body>
 </html>

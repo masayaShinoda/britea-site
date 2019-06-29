@@ -140,6 +140,95 @@ body {
   .footer-container-desktop { /* doesn't show up on mobile */
     display: none;
   }
+
+/* menu tablet */
+.menu-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid yellow; /* debug */
+}
+.menu-parent-container {
+  display: flex;
+  flex-direction: row;
+  /*border: 1px solid purple; /* debug */
+}
+  #menu-foam-tea {  /* independent changes to this one required */
+    margin-bottom: -.5vmax;
+  }
+  .heading-big {
+    font-size: 2vmax;
+    color: #DDAB4C;
+    padding: .75vmax;
+    padding-top: 12.5vmax;
+    margin-bottom: 1.25vmax;
+    border-bottom: 0.25vmin solid #DDAB4C;
+    font-family: 'Noto Serif', serif;
+    margin-top: -10vmax;
+  }
+  .heading-small {
+    font-size: 1.5vmax;
+    color: #DDAB4C;
+    padding: 1vmax;
+    padding-top: 2.5vmax;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .menu-container {
+    display: flex;
+    margin: 2.5vmin 1.25vmax;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
+    -moz-box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
+    box-shadow: 5px 10px 19px -10px rgba(0,0,0,0.71);
+    /*border: 1px blue solid; /* debug */
+    border: 0.125vmin solid #DDAB4C;
+  }
+    .menu-item {
+      /*border: 1px red solid; /* debug */
+
+
+    }
+      .menu-pic {
+        max-width: 12.5vmax;
+        min-height: 12.5vmin;
+        /*border: 1px grey solid; /* debug */
+      }
+      .desc-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(221,171,76,1);
+        color: white;
+        width: 100%;
+        min-height: 50%;
+        text-align: center;
+      }
+        .item-name {
+          font-family: 'Source Serif Pro', serif;
+          margin-top: 1.25vmin;
+          padding: 1.5vmin;
+          border-bottom: 0.125vmin solid white;
+          font-size: 1.5vmax;
+          max-width: 17.5vmax;
+        }
+        .item-subname {
+          font-family: 'Open Sans', sans-serif;
+          padding: 1vmin;
+          font-size: 1.25vmax;
+        }
+        .item-price {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 1.5vmax;
+          font-weight: 600;
+          padding: 1vmin;
+          margin-bottom: 1.25vmin;
+        }
+
 /* contacts */
 .contact-container-mobile {
   display: flex;
