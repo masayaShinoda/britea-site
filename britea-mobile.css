@@ -32,7 +32,7 @@ body {
   margin: 5vmin;
   margin-bottom: 0; /* to fix bleeding at bottom */
   flex-direction: column;
-
+  align-items: center;
 
   /*border: 1px red solid; /* debug */
 }
@@ -112,20 +112,18 @@ body {
       justify-content: space-around;
     }
       .openBtn {
-        padding: 3.75vmax;
+        padding: 2.5vmax;
         margin-left: 0;
         color: #DDAB4C;
-        margin-top: 2.5vmax;
+        margin-top: 2.25vmax;
         background: rgba(255,255,255,.9);
         border-radius: 100%;
       }
         .burger-top, .burger-mid, .burger-bottom {
-          width: 6.75vmax;
-          height: .75vmax;
+          width: 6.5vmax;
+          height: .5vmax;
           background: #DDAB4C;
-          margin: 1.25vmax;
-          margin-left: .5vmax;
-          margin-right: .5vmax;
+          margin: 1.25vmax .5vmax;
           box-shadow: .5vmax .5vmax 1.75vmax white;
 
         }
@@ -321,7 +319,11 @@ body {
     font-size: 4vmax;
     padding: 2.5vmin;
   }
-  .map-box { /* contains map */
+  .map-box-tablet { /* tablet map doesn't show on smartphone */
+    display: none;
+
+  }
+  .map-box-smartphone { /* contains map smartphone */
     margin: 1.25vmax;
     border: 0.125vmax #DDAB4C solid;
   }

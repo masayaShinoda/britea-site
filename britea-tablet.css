@@ -60,7 +60,7 @@ body {
         }
         #logo-mobile-homepage {
           min-width: 100px;
-          max-width: 80vmin;
+          max-width: 50vmin;
           margin-top: -25vmax;
 
         }
@@ -112,25 +112,25 @@ body {
       justify-content: space-around;
     }
       .openBtn {
-        padding: 3.75vmax;
-        margin-left: 3.75vmax;
+        padding: 3vmax;
+        margin-left: 0;
         color: #DDAB4C;
-        margin-top: 2.5vmax;
+        margin-top: 2.25vmax;
         background: rgba(255,255,255,.9);
         border-radius: 100%;
-        /*border: green 1px solid;*/
       }
         .burger-top, .burger-mid, .burger-bottom {
-          width: 6.75vmax;
-          height: .75vmax;
+          width: 6.5vmax;
+          height: .5vmax;
           background: #DDAB4C;
-          margin: 1.25vmax;
-          margin-left: .5vmax;
-          margin-right: .5vmax;
+          margin: 1.25vmax .5vmax;
           box-shadow: .5vmax .5vmax 1.75vmax white;
 
         }
+  .mid-container-desktop {  /* doesn't show on tablet */
+    display: none;
 
+  }
   .mid-container-home {
     display: flex;
     justify-content: center;
@@ -241,7 +241,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5vmax;
+  margin-top: 5vmin;
   /*border: red 1px solid; /* debug */
 }
   .heading-text {
@@ -250,9 +250,13 @@ body {
     font-size: 4vmax;
     padding: 2.5vmin;
   }
-  .map-box { /* contains map */
+  .map-box-tablet { /* contains map tablet */
     margin: 1.25vmax;
     border: 0.125vmax #DDAB4C solid;
+
+  }
+  .map-box-smartphone { /* smartphone map doesn't show up on tablet */
+    display: none;
   }
   .content-text {
     text-align: center;
