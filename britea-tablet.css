@@ -9,6 +9,10 @@ html {
 body {
   background: url('exterior-blurred.jpg') center center fixed;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 ::selection {
   background-color: #DDAB4C;
@@ -28,14 +32,14 @@ body {
   margin: 5vmin;
   margin-bottom: 0; /* to fix bleeding at bottom */
   flex-direction: column;
-
+  align-items: center;
 
   /*border: 1px red solid; /* debug */
 }
   .upper-container-mobile {
     display: flex;
     justify-content: space-around;
-    width: 90vmin;
+    width: 75vmax;
     /*border: blue 1px solid; /* debug */
   }
   .header-container-desktop {
@@ -109,10 +113,12 @@ body {
     }
       .openBtn {
         padding: 3.75vmax;
+        margin-left: 3.75vmax;
         color: #DDAB4C;
         margin-top: 2.5vmax;
         background: rgba(255,255,255,.9);
         border-radius: 100%;
+        /*border: green 1px solid;*/
       }
         .burger-top, .burger-mid, .burger-bottom {
           width: 6.75vmax;
