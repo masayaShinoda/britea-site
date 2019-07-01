@@ -89,7 +89,7 @@ body {
       .overlay a {  /* nav-links for mobile */
         padding: 2.75vmax;
         color: white;
-        font-size: 2rem;
+        font-size: 3.75vmax;
         text-decoration: none;
         font-family: 'Source Open Sans', sans-serif;
         display: block;
@@ -102,7 +102,7 @@ body {
         position: absolute;
         top: 5vmax;
         right: 10vmin;
-        font-size: 2rem;
+        font-size: 3.75vmax;
       }
     .underlay {
       display: flex;
@@ -324,6 +324,11 @@ body {
 
   }
   .map-box-smartphone { /* contains map smartphone */
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    padding: 2.5vmax;
+    max-width: 85vmin;
     margin: 1.25vmax;
     border: 0.125vmax #DDAB4C solid;
   }

@@ -251,6 +251,7 @@ body {
     padding: 2.5vmin;
   }
   .map-box-tablet { /* contains map tablet */
+    padding: 2.5vmax;
     margin: 1.25vmax;
     border: 0.125vmax #DDAB4C solid;
 
