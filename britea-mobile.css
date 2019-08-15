@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  background: url('exterior-blurred.jpg') center center fixed;
+  background: url('rendered-shop-img-blurred.jpg') center center fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ body {
         }
         #logo-mobile-homepage {
           min-width: 100px;
-          max-width: 80vmin;
+          max-width: 75vmin;
           margin-top: -25vmax;
 
         }
@@ -111,22 +111,56 @@ body {
       align-items: center;
       justify-content: space-around;
     }
-      .openBtn {
-        padding: 2.5vmax;
-        margin-left: 0;
-        color: #DDAB4C;
-        margin-top: 2.25vmax;
-        background: rgba(255,255,255,.9);
-        border-radius: 100%;
-      }
-        .burger-top, .burger-mid, .burger-bottom {
-          width: 6.5vmax;
-          height: .5vmax;
-          background: #DDAB4C;
-          margin: 1.25vmax .5vmax;
-          box-shadow: .5vmax .5vmax 1.75vmax white;
+    .openBtn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #DDAB4C;
+      background: rgba(255,255,255,.9);
+      border-radius: 100%;
+      margin-top: 2.75vmax;
+      min-width: 80px;
+      min-height: 80px;
+    }
+      .burger-top, .burger-mid, .burger-bottom {
 
+        min-width: 45px;
+        min-height: 5px;
+
+        background: #DDAB4C;
+        box-shadow: .5vmax .5vmax 1.75vmax white;
+        margin: 5px 0;
+      }
+      @media only screen and (min-width: 512px) {
+        .openBtn {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: #DDAB4C;
+          background: rgba(255,255,255,.9);
+          border-radius: 100%;
+          margin-top: 2.75vmax;
+          min-width: 150px;
+          min-height: 150px;
         }
+        .burger-top, .burger-mid, .burger-bottom {
+
+          min-width: 60px;
+          min-height: 7.5px;
+
+          background: #DDAB4C;
+          box-shadow: .5vmax .5vmax 1.75vmax white;
+          margin: 7.5px 0;
+        }
+      }
+
+
+
+
+
+
 
   .mid-container-home {
     display: flex;
