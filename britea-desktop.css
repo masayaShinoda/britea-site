@@ -137,6 +137,7 @@ body {
             }
             .banner-container {
               display: flex;
+
               /*border: 1px solid red; /* debug */
             }
 
