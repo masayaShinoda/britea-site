@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Britea Cambodia | Menu</title>
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="britea-desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="britea-mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="britea-mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo-transparent.png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <script src="britea-mobile.js"></script>
+  </head>
+  <style>
+    body {
+      background: url('rendered-shop-img-blurred-filtered.jpg');
+
+      background-size: cover;
+
+      flex-direction: column;
+    }
+    .center-container-desktop {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /*border: 1px green solid;  /* debug */
+
+      margin-top: 30vmin;
+      width: 100vmax;
+      
+    }
+      .map-container {
+
+        padding: 2.5vmax;
+        border: 0.125vmin #DDAB4C solid;
+      }
+  </style>
+  <body>
+    <div class="parent-container" id="home">  <!--- top most container --->
+      <div class="header-container-desktop">  <!--- display: none; on mobile --->
+        <div class="logo-container">
+          <img src="logo-transparent.png" id="logo">
+        </div>
+        <div class="navbar">
+          <a href="index.html" class="option">Home</a>
+          <div class="dropdown">
+            <a href="#" class="option">Menu</a>​​ <!--- equivalent to dropbtn --->
+              <div class="dropdown-content">
+                <ul>
+                  <li><a class="category" href="desktop-menu.html#menu-milk-tea">Milk Tea</a></li>
+                  <li><a class="category" href="desktop-menu.html#menu-fruit-tea">Fruit Tea</a></li>
+                  <li><a class="category" href="desktop-menu.html#menu-foam-tea">Foam Tea</a></li>
+                  <li><a class="category" href="desktop-menu.html#menu-flavored-tea">Flavored Tea</a></li>
+                  <li><a class="category" href="desktop-menu.html#menu-milkaholic">Milkaholic</a></li>
+                </ul>
+              </div>
+          </div>
+          <a href="index.html#contact" class="option">Contact</a>
+        </div>
+        </div>
+
+        <!--- g-lvn ends here --->
+        <!--- vuth code ends here --->
+    </div>
+    <div class="center-container-desktop">  <!--- parent conttainer for desktop --->
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.685631856596!2d104.89405793517008!3d11.57437925677584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951022afb9ac9%3A0xb40bb8b167a9cd4b!2sBritea+Cambodia+-+Toul+Kork+Branch!5e0!3m2!1sen!2skh!4v1565926940480!5m2!1sen!2skh" width="480" height="480" frameborder="0" style="border:0; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById('nav').style.height = "100%";
+      }
+      function closeNav() {
+        document.getElementById('nav').style.height = "0%";
+      }
+    </script>
+  </body>
+</html>
