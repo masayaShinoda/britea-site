@@ -21,10 +21,20 @@ body {
   background: url('rendered-shop-img.jpg') center center fixed;
   background-size: cover;
 }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 25vmin;
+    margin-top: 5vmax;
+    padding: 2.5vmax;
+    background: white;
+    border-radius: 1.25vmax;
+    border: 1px solid red;  /* debug */
+  }
   .head-text {
     color: #DDAB4C;
     font-family: var(--head);
-    
+
   }
   .subhead-text {
     font-family: var(--subhead);
@@ -147,11 +157,13 @@ body {
             }
             .mid-container-desktop  {
               display: flex;
-              justify-content: center;
+              flex-direction: column;
+              align-items: space-between;
+              justify-content: flex-end;
               padding: 0;
               margin-top: 20vmin;
               width: 80vmax;
-              /*border: 1px solid green; /* debug */
+              border: 1px solid green; /* debug */
 
 
             }
@@ -200,7 +212,7 @@ body {
     .footer-container-desktop {
       display: flex;
       position: absolute;
-      bottom: -30vmin; /* debug */ /* subject to changes */
+      bottom: -100vmin; /* debug */ /* subject to changes */
       width: 100vmax;
       align-items: flex-start;
       justify-content: center;

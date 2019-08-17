@@ -16,9 +16,7 @@
   <style>
     body {
       background: url('rendered-shop-img-blurred-filtered.jpg');
-
       background-size: cover;
-
       flex-direction: column;
     }
     .center-container-desktop {
@@ -30,7 +28,6 @@
       justify-content: center;
       margin-top: 20vmin;
       width: 100vmax;
-
     }
     .menu-section-container {
       display: flex;
@@ -47,17 +44,25 @@
       #menu-foam-tea {  /* independent changes to this one required */
         margin-bottom: -.5vmax;
       }
-
       .heading-big {
-        font-size: 2vmax;
-        color: #DDAB4C;
+        display: flex;
+
+        border-radius: 1.25vmax;
         padding: .75vmax;
         padding-top: 12.5vmax;
         margin-bottom: 1.25vmax;
         border-bottom: 0.25vmin solid #DDAB4C;
-        font-family: 'Noto Serif', serif;
         margin-top: -10vmax;
       }
+        .heading-big-text {
+          font-size: 2vmax;
+          color: #DDAB4C;
+          font-family: 'Noto Serif', serif;
+          padding: 1.75vmin 3.5vmax;
+          margin: .25vmax 0;
+          border-radius: 2.5vmax;
+          text-shadow: -2px 0px 15px rgba(221,171,76, 1);
+        }
       .heading-small {
         font-size: 1.5vmax;
         color: #DDAB4C;
@@ -81,8 +86,6 @@
       }
         .menu-item {
           /*border: 1px red solid; /* debug */
-
-
         }
           .menu-pic {
             max-width: 12.5vmax;
@@ -148,11 +151,11 @@
         <!--- g-lvn ends here --->
         <!--- vuth code ends here --->
     </div>
-    <div class="center-container-desktop">  <!--- parent conttainer for desktop --->
+    <div class="center-container-desktop">  <!--- parent container for desktop --->
         <!--- menu starts here --->
     <div class="menu-section-container">
       <!--- Milk Tea --->
-    <h1 class="heading-big" id="menu-milk-tea">Milk Tea</h1>  <!--- heading-big is used as anchor --->
+    <div class="heading-big" id="menu-milk-tea"><h1 class="heading-big-text">Milk Tea</h1></div>  <!--- heading-big-text is used as anchor --->
       <div class="menu-parent-container">
         <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
           <div class="menu-item">
@@ -190,7 +193,7 @@
       <!--- Milk Tea end --->
     </div>
     <div class="menu-section-container">
-      <h1 class="heading-big" id="menu-fruit-tea">Fruit Tea</h1>
+      <div class="heading-big" id="menu-fruit-tea"><h1 class="heading-big-text">Fruit Tea</h1></div>
       <div class="menu-parent-container">
       <!--- Fruit Tea --->
       <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
@@ -248,7 +251,7 @@
       </div> <!--- menu parent container ends --->
     </div>  <!--- menu section ends --->
     <div class="menu-section-container">
-      <h1 class="heading-big" id="menu-foam-tea">Foam Tea</h1>
+      <div class="heading-big" id="menu-foam-tea"><h1 class="heading-big-text">Foam Tea</h1></div>
       <h2 class="heading-small">Tea & Cheese Foam</h2>
       <div class="menu-parent-container">
       <!--- Foam Tea --->
@@ -350,7 +353,7 @@
     </div>  <!--- menu section ends --->
 
     <div class="menu-section-container">
-      <h1 class="heading-big" id="menu-flavored-tea">Flavored Tea</h1>
+      <div class="heading-big" id="menu-flavored-tea"><h1 class="heading-big-text">Flavored Tea</h1></div>
       <div class="menu-parent-container">
       <!--- Fruit Tea --->
       <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
@@ -410,7 +413,7 @@
 
     <div class="menu-section-container">
       <!--- Milk Tea --->
-      <h1 class="heading-big" id="menu-milkaholic">Milkaholic</h1> <!--- heading-big is used as anchor --->
+      <div class="heading-big" id="menu-milkaholic"><h1 class="heading-big-text">Milkaholic</h1></div> <!--- heading-big is used as anchor --->
       <div class="menu-parent-container">
         <div class="menu-container">  <!--- starting here constitudes 1 menu item --->
           <div class="menu-item">
