@@ -1,3 +1,11 @@
+:root {
+  /* fonts */
+  --head: 'Source Serif Pro', serif;
+  --subhead: 'Oxygen', sans-serif;
+  --paragraph: 'Open Sans', sans-serif;
+  /* colors */
+  --britea-yellow: #DDAB4C;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -13,6 +21,18 @@ body {
   background: url('rendered-shop-img.jpg') center center fixed;
   background-size: cover;
 }
+  .head-text {
+    color: #DDAB4C;
+    font-family: var(--head);
+    
+  }
+  .subhead-text {
+    font-family: var(--subhead);
+  }
+  .paragraph-text {
+    font-family: var(--paragraph);
+  }
+
 ::selection {
   background-color: #DDAB4C;
   color: white;

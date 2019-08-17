@@ -23,19 +23,56 @@
     }
     .center-container-desktop {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
       /*border: 1px green solid;  /* debug */
 
       margin-top: 30vmin;
       width: 100vmax;
-      
+
     }
       .map-container {
-
-        padding: 2.5vmax;
-        border: 0.125vmin #DDAB4C solid;
+        border: .125vmin solid var(--britea-yellow);
+        padding: 2.75vmax;
+        background: white;
       }
+      .contact-info-container {
+        display: flex;
+
+        min-width: 25vmax;
+        flex-direction: column;
+        border: 0.125vmin solid var(--britea-yellow);
+        background: white;
+        padding: 2.5vmax;
+
+      }
+        .social-items-container {
+          display: flex;
+          flex-direction: column;
+          margin-top: 1.25vmax;
+
+        }
+          .social-link-desktop {
+            display: flex;
+            align-items: center;
+            font-family: var(--subhead);
+            max-width: 25vmax;
+            text-decoration: none;
+            color: black;
+            transition: .2s;
+
+            padding: 1.25vmin;
+          }
+
+            .social-link-desktop:hover {
+              background: var(--britea-yellow);
+              color: white;
+
+            }
+            .social-icon-desktop {
+              max-width: 3.75vmax;
+              margin-right: 2.5vmin;
+            }
   </style>
   <body>
     <div class="parent-container" id="home">  <!--- top most container --->
@@ -46,7 +83,7 @@
         <div class="navbar">
           <a href="index.html" class="option">Home</a>
           <div class="dropdown">
-            <a href="#" class="option">Menu</a>​​ <!--- equivalent to dropbtn --->
+            <a href="desktop-menu.html" class="option">Menu</a>​​ <!--- equivalent to dropbtn --->
               <div class="dropdown-content">
                 <ul>
                   <li><a class="category" href="desktop-menu.html#menu-milk-tea">Milk Tea</a></li>
@@ -57,7 +94,7 @@
                 </ul>
               </div>
           </div>
-          <a href="index.html#contact" class="option">Contact</a>
+          <a href="#contact" class="option">Contact</a>
         </div>
         </div>
 
@@ -66,7 +103,29 @@
     </div>
     <div class="center-container-desktop">  <!--- parent conttainer for desktop --->
       <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.685631856596!2d104.89405793517008!3d11.57437925677584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951022afb9ac9%3A0xb40bb8b167a9cd4b!2sBritea+Cambodia+-+Toul+Kork+Branch!5e0!3m2!1sen!2skh!4v1565926940480!5m2!1sen!2skh" width="480" height="480" frameborder="0" style="border:0; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.685631856596!2d104.89405793517008!3d11.57437925677584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951022afb9ac9%3A0xb40bb8b167a9cd4b!2sBritea+Cambodia+-+Toul+Kork+Branch!5e0!3m2!1sen!2skh!4v1565926940480!5m2!1sen!2skh" width="420" height="380" frameborder="0" style="border: .125vmin solid var(--britea-yellow);" allowfullscreen></iframe>
+      </div>
+      <div class="contact-info-container" style="margin-left: 3.75vmax;" id="contact">
+        <h1 class="head-text">
+          Contact Us!
+        </h1>
+        <div class="social-items-container">
+          <a class="social-link-desktop" href="https://web.facebook.com/pg/briteacambodia/" target="_blank">
+            <img src="fbicon.png" class="social-icon-desktop">
+            Britea Cambodia - English Tea House
+          </a>
+          <a class="social-link-desktop" href="https://www.instagram.com/briteacambodia/" target="_blank">
+            <img src="igicon.png" class="social-icon-desktop">
+            @briteacambodia
+          </a>
+          <a class="social-link-desktop" href="mailto:britea.cambodia@gmail.com" target="_blank">
+            <img src="mailicon.png" class="social-icon-desktop">
+            <p>britea.cambodia@gmail.com</p
+          </a>
+
+        </div>
+
+
       </div>
     </div>
 

@@ -6,7 +6,7 @@ Location: 	#27 st. 307L303,
 Menu classification:
 	Milk Tea:
 	M1 Royal Premium
-	   Milk Tea Pearl
+	Milk Tea Pearl
 	M3 Classic Milk Tea Pearl
 	M5 Cheese Foam Royal Milk Tea
 
