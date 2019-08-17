@@ -25,6 +25,34 @@
   .contact-container-mobile { /* increases white space for both tablet and smartphone */
     margin-bottom: 7.5vmax;
   }
+  .social-items-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vmax;
+
+  }
+    .social-link-mobile {
+      display: flex;
+      align-items: center;
+      font-family: var(--subhead);
+      max-width: 75vmin;
+      text-decoration: none;
+      color: black;
+      border-bottom: 0.125vmin solid var(--britea-yellow);
+      transition: .2s;
+      font-size: 12pt;
+      padding: 1.25vmin;
+    }
+
+      .social-link-mobile:hover {
+        background: var(--britea-yellow);
+        color: white;
+
+      }
+      .social-icon-mobile {
+        max-width: 3.75vmax;
+        margin-right: 2.5vmax;
+      }
   </style>
   <body>
     <div class="parent-container-home">
@@ -79,8 +107,21 @@
         Khan Toul Kork, Phnom Penh.
       </p>
 
+      <div class="social-items-container">
+        <a class="social-link-mobile" href="https://web.facebook.com/pg/briteacambodia/" target="_blank">
+          <img src="fbicon.png" class="social-icon-mobile">
+          Britea Cambodia - English Tea House
+        </a>
+        <a class="social-link-mobile" href="https://www.instagram.com/briteacambodia/" target="_blank">
+          <img src="igicon.png" class="social-icon-mobile">
+          @briteacambodia
+        </a>
+        <a class="social-link-mobile" href="mailto:britea.cambodia@gmail.com" target="_blank">
+          <img src="mailicon.png" class="social-icon-mobile">
+          <p>britea.cambodia@gmail.com</p
+        </a>
 
-    </div>
+      </div>
 
 
     <script>

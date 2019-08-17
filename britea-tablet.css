@@ -1,3 +1,11 @@
+:root {
+  /* fonts */
+  --head: 'Source Serif Pro', serif;
+  --subhead: 'Oxygen', sans-serif;
+  --paragraph: 'Open Sans', sans-serif;
+  /* colors */
+  --britea-yellow: #DDAB4C;
+}
 html {
   scroll-behavior: smooth;
 }
