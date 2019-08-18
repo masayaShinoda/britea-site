@@ -41,7 +41,6 @@ body {
   margin-bottom: 0; /* to fix bleeding at bottom */
   flex-direction: column;
   align-items: center;
-
   /*border: 1px red solid; /* debug */
 }
   .upper-container-mobile {
