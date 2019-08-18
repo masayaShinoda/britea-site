@@ -46,6 +46,7 @@ body {
 }
   .upper-container-mobile {
     display: flex;
+    
     justify-content: space-around;
     width: 90vmin;
     /*border: blue 1px solid; /* debug */
@@ -127,7 +128,8 @@ body {
       color: #DDAB4C;
       background: rgba(255,255,255,.9);
       border-radius: 100%;
-      margin-top: 2.75vmax;
+      margin-left: 2.5vmax;
+      margin-top: 7.5vmax;
       min-width: 80px;
       min-height: 80px;
     }
@@ -373,13 +375,4 @@ body {
     max-width: 85vmin;
     margin: 1.25vmax;
     border: 0.125vmax #DDAB4C solid;
-  }
-  .content-text {
-    text-align: center;
-    font-size: 2.25vmax;
-    font-family: 'Open Sans', sans-serif;
-    margin: 1.25vmax;
-    color: #DDAB4C;
-    line-height: 1.6;
-    max-width: 65vmin;
   }

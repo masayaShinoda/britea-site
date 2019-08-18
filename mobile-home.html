@@ -20,35 +20,52 @@
       align-items: center;
 
     }
-    .openBtn {
-      margin-left: 2.5vmax;
-      margin-top: 7.5vmax;
-    }
+
     /* differentiation end */
-      .home-pic-container-mobile {
-        display: flex;
-        flex-direction: column;
-        /*border: 1px solid red;*/
-        margin-top: 5vmax;
-        align-items: center;
-        max-width: 100vmin;
-      }
-        #mobile-home-pic {
-          max-width: 100vmin;
+    .contents-parent-container-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 80vmin;
+    }
+
+    .alignment-1 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15vmin;
+
+
+      background: white;
+      border: var(--britea-border);
+
+    }
+
+        .content-head-text {
+
+          text-align: left;
+          font-family: 'Source Serif Pro', serif;
+          font-size: 24px;
+          color: var(--britea-yellow);
+          border-bottom: .25vmin solid var(--britea-yellow);
+          padding-bottom: 2.5vmin;
+          margin-bottom: 1.25vmin;
 
         }
-        #tablet-home-pic {
-          max-width: 100vmin;
+        .date-text {
+          font-family: 'Oxygen', sans-serif;
+          font-weight: lighter;
+          font-size: 11px;
+          letter-spacing: .125vmin;
         }
-        /* different homepage pic for mobile */
-        @media (max-width: 480px) {
-          #tablet-home-pic {display: none;} /* tablet pic doesn't show on mobile */
+        .content-text {
+          margin-top: 3.75vmax;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 12px;
+          word-spacing: 1.125px;
+          line-height: 1.6;
         }
-        /* different homepage pic for tablet */
-        @media (min-width: 480px) {
-          #mobile-home-pic {display: none;} /* mobile pic doesn't show on tablet */
 
-        }
+
     </style>
   </head>
   <body>
@@ -72,23 +89,21 @@
             </a>
           </div>
         <!--- g-lvn ends here --->
-
-
-
         <div class="logo-container-mobile">
           <img src="logo-transparent.png" id="logo-small-mobile">
-
         </div>
-
-
-
-
-
     </div>
-    <!--- smartphone --->
-    <div class="home-pic-container-mobile"> <!--- homepage contents start here --->
-      <img src="coming-soon-mobile.jpg" id="mobile-home-pic">
-      <img src="coming-soon-tablet.jpg" id="tablet-home-pic">
+
+    <div class="contents-parent-container-mobile"> <!--- homepage contents start here --->
+      <div class="alignment-1">
+        <h1 class="content-head-text">English tea house experience in Phnom Penh!</h1>
+        <p class="date-text">16 Aug, 2019.</p>
+        <img src="./content-img/congrats-pic.jpg" style="margin-top: 3.75vmax; max-width: 32.5vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);">
+
+          <p class="content-text">The first English Tea House in Cambodia is now open! We offer you various drink options that are made with high quality <a href="https://www.twinings.co.uk" style="color: var(--britea-yellow); text-decoration: none;">Twinnings</a> tea alongside a relaxing and elegant ambience.</p>
+
+
+      </div>
     </div>
 
     <script>

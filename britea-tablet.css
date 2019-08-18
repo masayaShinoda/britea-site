@@ -56,7 +56,7 @@ body {
 
       .logo-container-mobile {
         display: inline-block;
-        margin: 5vmax; /* important */
+        margin-top: 5vmax; /* important */
         width: 25vmin;
         height: 25vmin;
         /*border: green 1px solid; /* debug */
@@ -266,13 +266,4 @@ body {
   }
   .map-box-smartphone { /* smartphone map doesn't show up on tablet */
     display: none;
-  }
-  .content-text {
-    text-align: center;
-    font-size: 2.25vmax;
-    font-family: 'Open Sans', sans-serif;
-    margin: 1.25vmax;
-    color: #DDAB4C;
-    line-height: 1.6;
-    max-width: 65vmin;
   }
