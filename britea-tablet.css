@@ -156,6 +156,55 @@ body {
     display: none;
   }
 
+/* tablet mobile-home.html */
+.contents-parent-container-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80vmin;
+}
+
+.alignment-1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vmin;
+  max-width: 75vmin;
+
+  background: white;
+  border: var(--britea-border);
+
+}
+
+    .content-head-text {
+      text-align: left;
+      font-family: 'Source Serif Pro', serif;
+      font-size: 32px;
+      color: var(--britea-yellow);
+      border-bottom: .25vmin solid var(--britea-yellow);
+      padding-bottom: 2.5vmin;
+      margin-bottom: 1.5vmin;
+
+    }
+    .date-text {
+      font-family: 'Oxygen', sans-serif;
+      font-weight: lighter;
+      font-size: 12px;
+      letter-spacing: .15vmin;
+    }
+    .content-text {
+      margin-top: 5vmax;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      word-spacing: 1.25px;
+      line-height: 1.6;
+    }
+    .content-pic {
+      max-width: 65vmin;
+      margin-top: 3.75vmax;
+      box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);
+    }
+
+
 /* menu tablet */
 .menu-section-container {
   display: flex;
