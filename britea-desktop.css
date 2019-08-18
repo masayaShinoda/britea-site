@@ -38,8 +38,7 @@ body {
   .head-text {
     color: #DDAB4C;
     font-family: var(--head);
-    font-size: 1.75vmax;
-    font-weight: 400;
+    
     max-width: 25vmax;
   }
   .subhead-text {
