@@ -47,6 +47,7 @@ body {
   .upper-container-mobile {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 75vmax;
     /*border: blue 1px solid; /* debug */
   }
@@ -57,6 +58,7 @@ body {
       .logo-container-mobile {
         display: inline-block;
         margin-top: 5vmax; /* important */
+        margin-right: -5vmax;
         width: 25vmin;
         height: 25vmin;
         /*border: green 1px solid; /* debug */
@@ -120,7 +122,6 @@ body {
       justify-content: space-around;
     }
       .openBtn {
-        padding: 3vmax;
         margin-left: 0;
         color: #DDAB4C;
         margin-top: 2.25vmax;
