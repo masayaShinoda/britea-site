@@ -5,6 +5,10 @@
   --paragraph: 'Open Sans', sans-serif;
   /* colors */
   --britea-yellow: #DDAB4C;
+  /* shadows */
+  --lighter-shadow:  .75vmax .75vmax .75vmax rgba(0,0,0,.25);
+  /* borders */
+  --britea-border: .125vmin solid #DDAB4C;
 }
 html {
   scroll-behavior: smooth;
@@ -29,12 +33,14 @@ body {
     padding: 2.5vmax;
     background: white;
     border-radius: 1.25vmax;
-    border: 1px solid red;  /* debug */
+    /*border: 1px solid red;  /* debug */
   }
   .head-text {
     color: #DDAB4C;
     font-family: var(--head);
-
+    font-size: 1.75vmax;
+    font-weight: 400;
+    max-width: 25vmax;
   }
   .subhead-text {
     font-family: var(--subhead);
@@ -158,12 +164,12 @@ body {
             .mid-container-desktop  {
               display: flex;
               flex-direction: column;
-              align-items: space-between;
+              align-items: center;
               justify-content: flex-end;
               padding: 0;
               margin-top: 20vmin;
               width: 80vmax;
-              border: 1px solid green; /* debug */
+              /*border: 1px solid green; /* debug */
 
 
             }

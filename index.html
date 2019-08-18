@@ -11,6 +11,58 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
     <script src="britea-mobile.js"></script>
+    <style>
+      /* desktop */
+
+        .alignment-1 {
+          display: flex;
+          width: 80vmax;
+          max-width: 80vmax;
+          margin-top: 15vmin;
+          justify-content: center;
+
+          background: white;
+          padding: 2.5vmax;
+          padding-top: 1.25vmax;
+          padding-bottom: 3.75vmax;
+          border: var(--britea-border);
+
+        }
+          .content-container {
+            display: flex;
+            flex-direction: column;
+            margin-left: 4.25vmax;
+            margin-top: 5vmax;
+
+            /*border: 1px solid red; /* debug */
+          }
+            .content-head-text {
+              font-family: 'Source Serif Pro', serif;
+              font-size: 32px;
+              max-width: 27.5vmax;
+              color: var(--britea-yellow);
+              padding-bottom: .25vmin;
+              border-bottom: .25vmin solid var(--britea-yellow);
+
+
+            }
+            .date-text {
+              font-family: 'Oxygen', sans-serif;
+              font-weight: lighter;
+              font-size: 12px;
+              letter-spacing: .125vmin;
+              margin-top: 1.75vmin;
+            }
+            .content-text {
+              margin-top: 2.5vmax;
+              font-family: 'Open Sans', sans-serif;
+              font-size: 14px;
+              word-spacing: 1.25px;
+              line-height: 1.6;
+              max-width: 32.5vmax;
+            }
+    </style>
+
   </head>
   <body>
 
@@ -73,8 +125,14 @@
             <div class="banner-container">
               <!---<img src="coming-soon.jpg" class="image-banner" style="margin-top: 5vmax; border: 0.125vmin solid #DDAB4C;"></img>--->
             </div>
-          <div class="alignment-1" style="display: flex; justify-content: space-between; margin-left: 5vmax;">
-            <img src="./content-img/congrats-pic.jpg" style="margin: 2.5vmax; margin-top: 5vmax; margin-left: 0; max-width: 35vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);">
+
+          <div class="alignment-1">
+            <img src="./content-img/congrats-pic.jpg" style="margin-left: -5vmax; margin-top: 2.5vmax; max-width: 32.5vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);">
+            <div class="content-container">  <!--- contains header, subhead, para --->
+              <h1 class="content-head-text">English tea house experience in Phnom Penh!</h1>
+              <p class="date-text">16 Aug, 2019.</p>
+              <p class="content-text">The first English Tea House in Cambodia is now open! We offer you various drink options that are made with high quality <a href="https://www.twinings.co.uk" style="color: var(--britea-yellow); text-decoration: none;">Twinnings</a> tea alongside a relaxing and elegant ambience.</p>
+            </div>
 
           </div>
           <div class="vid-container">
