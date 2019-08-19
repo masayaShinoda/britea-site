@@ -199,9 +199,10 @@ body {
       line-height: 1.6;
     }
     .content-pic {
-      max-width: 65vmin;
+      max-width: 70vmin;
+      margin: 0 auto;
       margin-top: 3.75vmax;
-      box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);
+      /*box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);*/
     }
 
 

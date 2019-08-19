@@ -229,8 +229,8 @@ body {
     }
     .content-pic {
       margin-top: 3.75vmax;
-      max-width: 32.5vmax;
-      box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);
+      max-width: 80vmin;
+      /*box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);*/
     }
 
 
