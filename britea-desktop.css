@@ -38,7 +38,7 @@ body {
   .head-text {
     color: #DDAB4C;
     font-family: var(--head);
-    
+
     max-width: 25vmax;
   }
   .subhead-text {
@@ -217,7 +217,7 @@ body {
     .footer-container-desktop {
       display: flex;
       position: absolute;
-      bottom: -100vmin; /* debug */ /* subject to changes */
+      bottom: -150vmin; /* debug */ /* subject to changes */
       width: 100vmax;
       align-items: flex-start;
       justify-content: center;
@@ -262,7 +262,7 @@ body {
     padding: 1.25vmin 0;
     margin-left: -0.75vmax;
   }
-    #social-icon {
+    .social-icon {
       max-width: 4.5vmax;
       padding: 0.75vmax;
     }

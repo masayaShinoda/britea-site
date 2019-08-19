@@ -13,19 +13,26 @@
     <script src="britea-mobile.js"></script>
     <style>
       /* desktop */
+      .contents-container-desktop {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background: white;
 
-        .alignment-1 {
+          border: var(--britea-border);
+          margin-top: 15vmin;
+          max-width: 80vmax;
+      }
+        .alignment-1, .alignment-2 {
           display: flex;
           width: 80vmax;
-          max-width: 80vmax;
-          margin-top: 15vmin;
+          margin-top: 2.5vmax;
           justify-content: center;
 
-          background: white;
+
           padding: 2.5vmax;
-          padding-top: 1.25vmax;
+          padding-top: .75vmax;
           padding-bottom: 3.75vmax;
-          border: var(--britea-border);
 
         }
           .content-container {
@@ -38,7 +45,7 @@
           }
             .content-head-text {
               font-family: 'Source Serif Pro', serif;
-              font-size: 32px;
+              font-size: 28px;
               max-width: 27.5vmax;
               color: var(--britea-yellow);
               padding-bottom: .25vmin;
@@ -90,7 +97,7 @@
           <a href="desktop-contact.html" class="option">Contact</a>
         </div>
         </div>
-        <div class="home-container-mobile"> <!--- home container for mobile, hidden in desktop --->
+        <div class="home-container-mobile"> <!--- home co ntainer for mobile, hidden in desktop --->
           <div class="logo-transparent">
             <img src="britea-flag.png" id="logo-mobile-homepage">
           </div>
@@ -125,19 +132,38 @@
             <div class="banner-container">
               <!---<img src="coming-soon.jpg" class="image-banner" style="margin-top: 5vmax; border: 0.125vmin solid #DDAB4C;"></img>--->
             </div>
+          <div class="contents-container-desktop">
+            <div class="alignment-1">
+              <img src="./content-img/drinks-and-sweets.jpg" style="margin-top: 2.5vmax; max-width: 32.5vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);">
+              <div class="content-container">  <!--- contains header, subhead, para --->
+                <h1 class="content-head-text">English tea house experience in Phnom Penh!</h1>
+                <p class="date-text">16 Aug, 2019.</p>
+                <p class="content-text">The first English Tea House in Cambodia is now open! We offer you various drink options that are made with high quality <a href="https://www.twinings.co.uk" target="_blank" style="color: var(--britea-yellow); text-decoration: none;">Twinnings</a> tea alongside a relaxing and elegant ambience.</p>
+              </div>
 
-          <div class="alignment-1">
-            <img src="./content-img/congrats-pic.jpg" style="margin-left: -5vmax; margin-top: 2.5vmax; max-width: 32.5vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);">
-            <div class="content-container">  <!--- contains header, subhead, para --->
-              <h1 class="content-head-text">English tea house experience in Phnom Penh!</h1>
-              <p class="date-text">16 Aug, 2019.</p>
-              <p class="content-text">The first English Tea House in Cambodia is now open! We offer you various drink options that are made with high quality <a href="https://www.twinings.co.uk" style="color: var(--britea-yellow); text-decoration: none;">Twinnings</a> tea alongside a relaxing and elegant ambience.</p>
             </div>
+            <div class="alignment-2" style="flex-wrap: wrap;">
+              <div class="content-container" style="margin-left: 0;">
+                <h1 class="content-head-text" style="margin-top: 1.25vmax;">Follow us on social media:</h1>
+                <div class="front-page-social-container" style="display: flex; justify-content: center; margin-top: 2.5vmin; letter-spacing: 0.05vmax; color: #DDAB4C; font-size: 14px;font-family: 'Open Sans', sans-serif; line-height: 1.6; text-align: left;">
+                  <a href="https://facebook.com/briteacambodia" target="_blank" class="social-content" onmouseover="fbIconColor()" onmouseleave="fbIconColorReverse()"><img src="fbIcon.png" class="social-icon" id="fb-link">Britea Cambodia</a>
+                  <a href="https://instagram.com/briteacambodia" target="_blank" class="social-content" onmouseover="igIconColor()" onmouseleave="igIconColorReverse()"><img src="igIcon.png" class="social-icon" id="ig-link">@briteacambodia</a>
 
-          </div>
-          <div class="vid-container">
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fbriteacambodia%2Fvideos%2F419898091956490%2F&width=500&show_text=false&height=188&appId" width="600" height="225.6" style="border:none;overflow:hidden; margin-left: 2.5vmax; margin-top: 5vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5); border: 0.125vmin solid #DDAB4C;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
-          </div>
+
+                  <!---<a class="social-link-mobile" href="mailto:britea.cambodia@gmail.com" target="_blank">
+                    <img src="mailicon.png" class="social-icon" onmouseover="mailIconColor()" onmouseleave="mailIconColorReverse()" id="mail-link">
+
+                  </a>--->
+
+
+                </div>
+
+              </div>
+              <div class="vid-container">
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fbriteacambodia%2Fvideos%2F419898091956490%2F&width=500&show_text=false&height=188&appId" width="512" height="192.512" style="border:none;overflow:hidden; margin-left: 2.5vmax; margin-top: 5vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5); border: 0.125vmin solid #DDAB4C;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true">
+                </iframe>
+              </div>
+            </div>
 
 
 
@@ -155,8 +181,8 @@
               Khan Toul Kork, Phnom Penh.
             </p>
             <div class="contact-box">
-              <a href="https://instagram.com/briteacambodia" target="_blank" class="social-content"><img src="igIcon.png" id="social-icon">@briteacambodia</a>
-              <a href="https://facebook.com/briteacambodia" target="_blank" class="social-content"><img src="fbIcon.png" id="social-icon">Britea Cambodia</a>
+              <a href="https://instagram.com/briteacambodia" target="_blank" class="social-content" onmouseover="igIconBottomColor()" onmouseleave="igIconBottomColorReverse()"><img src="igIcon.png" class="social-icon" id="ig-link-bottom">@briteacambodia</a>
+              <a href="https://facebook.com/briteacambodia" target="_blank" class="social-content" onmouseover="fbIconBottomColor()" onmouseleave="fbIconBottomColorReverse()"><img src="fbIcon.png" class="social-icon" id="fb-link-bottom">Britea Cambodia</a>
             </div>
 
           </div>
@@ -171,6 +197,37 @@
     function closeNav() {
       document.getElementById('nav').style.height = "0%";
     }
+    function fbIconColor() {
+      document.getElementById('fb-link').src = "fbicon-white.png";
+    }
+    function fbIconColorReverse() {
+      document.getElementById('fb-link').src = "fbicon.png";
+    }
+    function fbIconBottomColor() {
+      document.getElementById('fb-link-bottom').src = "fbicon-white.png";
+    }
+    function fbIconBottomColorReverse() {
+      document.getElementById('fb-link-bottom').src = "fbicon.png";
+    }
+    function igIconColor() {
+      document.getElementById('ig-link').src = "igicon-white.png";
+    }
+    function igIconColorReverse() {
+      document.getElementById('ig-link').src = "igicon.png";
+    }
+    function igIconBottomColor() {
+      document.getElementById('ig-link-bottom').src = "igicon-white.png";
+    }
+    function igIconBottomColorReverse() {
+      document.getElementById('ig-link-bottom').src = "igicon.png";
+    }
+    function mailIconColor() {
+      document.getElementById('mail-link').src = "mailicon-white.png";
+    }
+    function mailIconColorReverse() {
+      document.getElementById('mail-link').src = "mailicon.png";
+    }
+
   </script>
   </body>
 </html>
