@@ -110,8 +110,8 @@ body {
         }
       .overlay .closeBtn {
         position: absolute;
-        top: 5vmax;
-        right: 10vmin;
+        top: 10vmax;
+        right: 15vmin;
         font-size: 2rem;
       }
     .underlay {

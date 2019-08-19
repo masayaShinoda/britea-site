@@ -108,7 +108,7 @@ body {
         }
       .overlay .closeBtn {
         position: absolute;
-        top: 5vmax;
+        top: 10vmax;
         right: 10vmin;
         font-size: 3.75vmax;
       }
