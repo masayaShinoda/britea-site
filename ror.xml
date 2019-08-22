@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://briteacambodia.netlify.com/</title>
+  <link>http://briteacambodia.netlify.com/</link>
+
+<item>
+     <link>http://briteacambodia.netlify.com/</link>
+     <title>Britea Cambodia</title>
+     <description>Britea English Tea House now open in Phnom Penh, Cambodia! Enjoy quality Twinnings tea in an elegant atmosphere.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://briteacambodia.netlify.com/desktop-menu.html</link>
+     <title>Britea Cambodia | Menu</title>
+     <description>Britea English Tea House now open in Phnom Penh, Cambodia! Enjoy quality Twinnings tea in an elegant atmosphere.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://briteacambodia.netlify.com/desktop-contact.html</link>
+     <title>Britea Cambodia | Menu</title>
+     <description>Britea English Tea House now open in Phnom Penh, Cambodia! Enjoy quality Twinnings tea in an elegant atmosphere.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://briteacambodia.netlify.com/mobile-home.html</link>
+     <title>Britea Cambodia</title>
+     <description>Britea English Tea House now open in Phnom Penh, Cambodia! Enjoy quality Twinnings tea in an elegant atmosphere.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://briteacambodia.netlify.com/mobile-menu.html</link>
+     <title>Britea Cambodia</title>
+     <description>Britea English Tea House now open in Phnom Penh, Cambodia! Enjoy quality Twinnings tea in an elegant atmosphere.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://briteacambodia.netlify.com/mobile-contact.html</link>
+     <title>Britea Cambodia</title>
+     <description>Britea English Tea House now open in Phnom Penh, Cambodia! Enjoy quality Twinnings tea in an elegant atmosphere.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://briteacambodia.netlify.com/index.html</link>
+     <title>Britea Cambodia</title>
+     <description>Britea English Tea House now open in Phnom Penh, Cambodia! Enjoy quality Twinnings tea in an elegant atmosphere.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
