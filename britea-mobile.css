@@ -15,8 +15,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  background: url('rendered-shop-img-blurred.jpg') center center fixed;
-  background-size: cover;
+  background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,12 +25,8 @@ body {
   background-color: #DDAB4C;
   color: white;
 }
-.parent-container {
-  display: flex;
-  height: 100vmax;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.parent-container { /* belongs to desktop */
+  display: none;
   /*background: rgba(255,255,255,.125); /* white filter to make body bg less significant */
   /*border: blue 1px solid; /* debug */
 }
@@ -161,13 +156,6 @@ body {
           margin: 7.5px 0;
         }
       }
-
-
-
-
-
-
-
   .mid-container-home {
     display: flex;
     justify-content: center;
@@ -189,19 +177,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 80vmin;
+  justify-content: center;
 }
 
-.alignment-1 {
-  display: flex;
-  flex-direction: column;
-  margin-top: 15vmin;
-
-
-  background: white;
-  border: var(--britea-border);
-
-}
 
     .content-head-text {
 

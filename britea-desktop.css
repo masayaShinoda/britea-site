@@ -25,6 +25,9 @@ body {
   background: url('rendered-shop-img.jpg') center center fixed;
   background-size: cover;
 }
+.parent-container-home {  /* this belongs to mobile, therefore is cancelled */
+  display: none;
+}
   .text-container {
     display: flex;
     flex-direction: column;
@@ -63,6 +66,70 @@ body {
   flex-direction: column;
   align-items: center;
 
+}
+
+
+      /* desktop */
+      .contents-container-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+
+        border: var(--britea-border);
+        margin-top: 15vmin;
+        max-width: 80vmax;
+    }
+      .alignment-1-desktop, .alignment-2-desktop {
+        display: flex;
+        width: 80vmax;
+        margin-top: 2.5vmax;
+        justify-content: center;
+
+
+        padding: 2.5vmax;
+        padding-top: .75vmax;
+        padding-bottom: 3.75vmax;
+
+      }
+        .content-container {
+          display: flex;
+          flex-direction: column;
+          margin-left: 4.25vmax;
+          margin-top: 5vmax;
+
+          /*border: 1px solid red; /* debug */
+        }
+          .content-head-text {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 28px;
+            max-width: 27.5vmax;
+            color: var(--britea-yellow);
+            padding-bottom: .25vmin;
+            border-bottom: .25vmin solid var(--britea-yellow);
+
+
+          }
+          .date-text {
+            font-family: 'Oxygen', sans-serif;
+            font-weight: lighter;
+            font-size: 12px;
+            letter-spacing: .125vmin;
+            margin-top: 1.75vmin;
+          }
+          .content-text {
+            margin-top: 2.5vmax;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            word-spacing: 1.25px;
+            line-height: 1.6;
+            max-width: 32.5vmax;
+          }
+
+
+
+.parent-container-mobile {
+  display: none;
 }
   .header-container-desktop {
     display: flex;

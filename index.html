@@ -5,7 +5,7 @@
     <meta name="description" content="Britea English Tea House now open in Phnom Penh, Cambodia! Enjoy quality Twinnings tea in an elegant atmosphere.">
     <meta name="keywords" content="britea,britea cambodia,britea english tea hoouse,tea house,british tea,english tea,coffee,tea shop nearby,tea shop phnom penh,tea house phnom penh,tea house cambodia,tea cambodia,cafe nearby,cafes nearby,tea house cambodia,twinnings,twinnings cambodia,twinnings phnom penh">
     <link rel="stylesheet" media="screen and (min-width: 1025px)" href="britea-desktop.css">
-    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="britea-mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="britea-tablet.css">
     <link rel="stylesheet" media="screen and (max-width: 480px)" href="britea-mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo-transparent.png">
@@ -15,70 +15,12 @@
     <meta name="google-site-verification" content="GesiJfP2_JeM94iHlsTIQqAdq2Y1XFXDiFAke2Rvfyw" />
     <meta name="msvalidate.01" content="48410C0808138AD05089CE341BE926C0" />
     <script src="britea-mobile.js"></script>
-    <style>
-      /* desktop */
-      .contents-container-desktop {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          background: white;
-
-          border: var(--britea-border);
-          margin-top: 15vmin;
-          max-width: 80vmax;
-      }
-        .alignment-1, .alignment-2 {
-          display: flex;
-          width: 80vmax;
-          margin-top: 2.5vmax;
-          justify-content: center;
-
-
-          padding: 2.5vmax;
-          padding-top: .75vmax;
-          padding-bottom: 3.75vmax;
-
-        }
-          .content-container {
-            display: flex;
-            flex-direction: column;
-            margin-left: 4.25vmax;
-            margin-top: 5vmax;
-
-            /*border: 1px solid red; /* debug */
-          }
-            .content-head-text {
-              font-family: 'Source Serif Pro', serif;
-              font-size: 28px;
-              max-width: 27.5vmax;
-              color: var(--britea-yellow);
-              padding-bottom: .25vmin;
-              border-bottom: .25vmin solid var(--britea-yellow);
-
-
-            }
-            .date-text {
-              font-family: 'Oxygen', sans-serif;
-              font-weight: lighter;
-              font-size: 12px;
-              letter-spacing: .125vmin;
-              margin-top: 1.75vmin;
-            }
-            .content-text {
-              margin-top: 2.5vmax;
-              font-family: 'Open Sans', sans-serif;
-              font-size: 14px;
-              word-spacing: 1.25px;
-              line-height: 1.6;
-              max-width: 32.5vmax;
-            }
-    </style>
 
   </head>
   <body>
 
-
-
+    
+    
     <div class="parent-container" id="home">  <!--- top most container --->
       <div class="header-container-desktop">  <!--- display: none; on mobile --->
         <div class="logo-container">
@@ -101,82 +43,61 @@
           <a href="desktop-contact.html" class="option">Contact</a>
         </div>
         </div>
-        <div class="home-container-mobile"> <!--- home co ntainer for mobile, hidden in desktop --->
-          <div class="logo-transparent">
-            <img src="britea-flag.png" id="logo-mobile-homepage">
-          </div>
-        <!--- copied from G-LVN --->
-          <div id="nav" class="overlay">
-            <a href="#" class="closeBtn" onclick="closeNav()">X</a>
-            <div class="overlay__content">
-              <a href="mobile-home.html">Home</a>
-              <a href="mobile-menu.html">Menu</a>
-              <a href="mobile-contact.html">Contact</a>
-            </div>
-          </div>
-          <div class="underlay">
-            <a href="#" class="openBtn" onclick="openNav()" style="margin-left: 0;">
-              <div class="burger-top"></div>
-              <div class="burger-mid"></div>
-              <div class="burger-bottom"></div>
-            </a>
-          </div>
-        <!--- g-lvn ends here --->
-        <!--- vuth code ends here --->
-      </div>
+        
+        
         <div class="mid-container-desktop">
-            <!--- unused for now <div class="slider-container">
+          <!--- unused for now <div class="slider-container">
               <img src="fruit-tea.jpg" class="front-image">
             </div>
             <div class="paragraph-container">
               <h1 class="content-header"_>The best tea from the United Kingdom!</h1>
 
-
+              
             </div>--->
             <div class="banner-container">
               <!---<img src="coming-soon.jpg" class="image-banner" style="margin-top: 5vmax; border: 0.125vmin solid #DDAB4C;"></img>--->
             </div>
           <div class="contents-container-desktop">
-            <div class="alignment-1">
+            <div class="alignment-1-desktop">
               <img src="./content-img/drinks-and-sweets.jpg" style="margin-top: 3.75vmax; max-width: 32.5vmax; max-height: 21.66vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5);">
               <div class="content-container">  <!--- contains header, subhead, para --->
                 <h1 class="content-head-text">English tea house experience in Phnom Penh!</h1>
                 <p class="date-text">16 Aug, 2019.</p>
                 <p class="content-text">The first English Tea House in Cambodia is now open! We offer you various drink options that are made with high quality <a href="https://www.twinings.co.uk" target="_blank" style="color: var(--britea-yellow); text-decoration: none;">Twinnings</a> tea alongside a relaxing and elegant ambience.</p>
               </div>
-
+              
             </div>
-            <div class="alignment-2" style="flex-wrap: wrap; margin-top: -5vmin;">
-              <div class="content-container" style="margin-left: 0;">
-                <h1 class="content-head-text" style="margin-top: 1.25vmax;">Follow us on social media:</h1>
-                <div class="front-page-social-container" style="display: flex; justify-content: center; margin-top: 2.5vmin; letter-spacing: 0.05vmax; color: #DDAB4C; font-size: 14px;font-family: 'Open Sans', sans-serif; line-height: 1.6; text-align: left;">
-                  <a href="https://facebook.com/briteacambodia" target="_blank" class="social-content" onmouseover="fbIconColor()" onmouseleave="fbIconColorReverse()"><img src="fbIcon.png" class="social-icon" id="fb-link">Britea Cambodia</a>
-                  <a href="https://instagram.com/briteacambodia" target="_blank" class="social-content" onmouseover="igIconColor()" onmouseleave="igIconColorReverse()"><img src="igIcon.png" class="social-icon" id="ig-link">@briteacambodia</a>
+            <div class="alignment-2-desktop" style="flex-wrap: wrap; margin-top: -5vmin;">
+                <div class="content-container" style="margin-left: 0;">
+                    <h1 class="content-head-text" style="margin-top: 1.25vmax;">Follow us on social media:</h1>
+                    <div class="front-page-social-container" style="display: flex; justify-content: center; margin-top: 2.5vmin; letter-spacing: 0.05vmax; color: #DDAB4C; font-size: 14px;font-family: 'Open Sans', sans-serif; line-height: 1.6; text-align: left;">
+                        <a href="https://facebook.com/briteacambodia" target="_blank" class="social-content" onmouseover="fbIconColor()" onmouseleave="fbIconColorReverse()"><img src="fbIcon.png" class="social-icon" id="fb-link">Britea Cambodia</a>
+                        <a href="https://instagram.com/briteacambodia" target="_blank" class="social-content" onmouseover="igIconColor()" onmouseleave="igIconColorReverse()"><img src="igIcon.png" class="social-icon" id="ig-link">@briteacambodia</a>
 
-
+                        
                   <!---<a class="social-link-mobile" href="mailto:britea.cambodia@gmail.com" target="_blank">
                     <img src="mailicon.png" class="social-icon" onmouseover="mailIconColor()" onmouseleave="mailIconColorReverse()" id="mail-link">
 
                   </a>--->
 
-
+                  
                 </div>
-
+                
               </div>
               <div class="vid-container" style="margin-left: 1.25vmax;">
-                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fbriteacambodia%2Fvideos%2F419898091956490%2F&width=500&show_text=false&height=188&appId" width="512" height="192.512" style="border:none;overflow:hidden; margin-left: 2.5vmax; margin-top: 5vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5); border: 0.125vmin solid #DDAB4C;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true">
-                </iframe>
+                  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fbriteacambodia%2Fvideos%2F419898091956490%2F&width=500&show_text=false&height=188&appId" width="512" height="192.512" style="border:none;overflow:hidden; margin-left: 2.5vmax; margin-top: 5vmax; box-shadow: .75vmax .75vmax .25vmax rgba(0,0,0,.5); border: 0.125vmin solid #DDAB4C;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true">
+                  </iframe>
+                </div>
               </div>
-            </div>
-
-
-
+              
+              
+              
         </div>
         <div class="footer-container-desktop" id="contact">   <!--- display: none; on mobile --->
           <div class="left-box"> <!--- contains map --->
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.685631856596!2d104.89405793517008!3d11.57437925677584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951022afb9ac9%3A0xb40bb8b167a9cd4b!2sBritea+Cambodia+-+Toul+Kork+Branch!5e0!3m2!1sen!2skh!4v1565926940480!5m2!1sen!2skh" width="175" height="175" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+            
           </div>
           <div class="mid-box">
             <p class="address">
@@ -188,12 +109,52 @@
               <a href="https://instagram.com/briteacambodia" target="_blank" class="social-content" onmouseover="igIconBottomColor()" onmouseleave="igIconBottomColorReverse()"><img src="igIcon.png" class="social-icon" id="ig-link-bottom">@briteacambodia</a>
               <a href="https://facebook.com/briteacambodia" target="_blank" class="social-content" onmouseover="fbIconBottomColor()" onmouseleave="fbIconBottomColorReverse()"><img src="fbIcon.png" class="social-icon" id="fb-link-bottom">Britea Cambodia</a>
             </div>
-
+            
           </div>
+          
+        </div>
 
+      </div>
+  </div>
+
+  
+  <div class="parent-container-home">
+      <div class="upper-container-mobile">
+
+        <!--- copied from G-LVN --->
+          <div id="nav" class="overlay">
+            <a href="#" class="closeBtn" onclick="closeNav()">X</a>
+            <div class="overlay__content">
+              <a href="mobile-home.html">Home</a>
+              <a href="mobile-menu.html">Menu</a>
+              <a href="mobile-contact.html">Contact</a>
+            </div>
+          </div>
+          <div class="underlay">
+            <a href="#" class="openBtn" onclick="openNav()">
+              <div class="burger-top"></div>
+              <div class="burger-mid"></div>
+              <div class="burger-bottom"></div>
+            </a>
+          </div>
+        <!--- g-lvn ends here --->
+        <div class="logo-container-mobile">
+          <img src="logo-transparent.png" id="logo-small-mobile">
+        </div>
     </div>
 
+      <div class="contents-parent-container-mobile"> <!--- homepage contents start here --->
+        <div class="alignment-1" style="margin-bottom: 5vmax;">
+          <h1 class="content-head-text">English tea house experience in Phnom Penh!</h1>
+          <p class="date-text">16 Aug, 2019.</p>
+          <img src="./content-img/drinks-and-sweets.jpg" class="content-pic">
 
+            <p class="content-text">The first English Tea House in Cambodia is now open! We offer you various drink options that are made with high quality <a href="https://www.twinings.co.uk" target="_blank" style="color: var(--britea-yellow); text-decoration: none;">Twinnings</a> tea alongside a relaxing and elegant ambience.</p>
+
+
+        </div>
+      </div>
+    </div>
   <script>
     function openNav() {
       document.getElementById('nav').style.height = "100%";
